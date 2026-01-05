@@ -8,7 +8,7 @@ const ButtonOptions = ({ text, func, amountOptions }: ButtonOptionsPropsType) =>
     return (
         <Pressable style={({ pressed }) => [
             {
-                backgroundColor: pressed ? '#4997D0' : Number(text) === amountOptions ? '#3A7FB0' : "#ffffff",
+                backgroundColor: pressed ? '#641824' : Number(text) === amountOptions ? '#7A1E2D' : "#ffffff",
             },
             optionStyle.buttonOption
         ]}

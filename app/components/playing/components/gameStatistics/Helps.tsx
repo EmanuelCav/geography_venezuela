@@ -9,7 +9,7 @@ const Helps = ({ isAnswered, helps, changeHelp }: HelpsPropsType) => {
     return (
         <Pressable style={({ pressed }) => [
             {
-                backgroundColor: pressed ? '#4997D0' : `${isAnswered ? '#828282' : '#3A7FB0'}`
+                backgroundColor: pressed ? '#641824' : `${isAnswered ? '#828282' : '#7A1E2D'}`
             },
             playingStyles.buttonHelp
         ]}

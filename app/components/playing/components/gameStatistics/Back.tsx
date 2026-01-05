@@ -6,7 +6,7 @@ const Back = ({ exit }: { exit: (isExit: boolean) => void }) => {
     return (
         <Pressable style={({ pressed }) => [
             {
-                backgroundColor: pressed ? '#4997D0' : '#3A7FB0',
+                backgroundColor: pressed ? '#641824' : '#7A1E2D',
             },
             playingStyles.buttonHelp
         ]} onPress={() => exit(true)}>

@@ -9,7 +9,7 @@ const ButtonAccept = ({ text, func, isCategory }: ButtonAcceptPropsType) => {
         <View style={generalStyles.containerButtonAccept}>
             <Pressable disabled={isCategory} style={({ pressed }) => [
                 {
-                    backgroundColor: pressed ? '#4997D0' : '#3A7FB0',
+                    backgroundColor: pressed ? '#641824' : '#7A1E2D',
                     opacity: isCategory ? .5 : 1
                 },
                 generalStyles.buttonAccept

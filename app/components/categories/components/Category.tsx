@@ -14,7 +14,7 @@ const Category = ({ category, categoryAction }: CategoryPropsType) => {
   return (
     <Pressable style={({ pressed }) => [
       {
-        backgroundColor: pressed ? '#4997D0' : '#3A7FB0',
+        backgroundColor: pressed ? '#641824' : '#7A1E2D',
       },
       categoriesStyle.containerCategory
     ]} onPress={changeCategory}>
@@ -22,7 +22,7 @@ const Category = ({ category, categoryAction }: CategoryPropsType) => {
         <Text style={categoriesStyle.categoryText}>{category.category}</Text>
       </View>
       <Checkbox
-        color={'#68b2e8'}
+        color={'#d68795'}
         value={category.isSelect}
         style={{ padding: Dimensions.get("window").height / 92.5 }}
         onValueChange={changeCategory}

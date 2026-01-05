@@ -4,7 +4,7 @@ export const generalStyles = StyleSheet.create({
 
     containerGeneral: {
         flex: 1,
-        backgroundColor: '#B3DAF1'
+        backgroundColor: '#E6C1C6'
     },
 
     containerBanner: {
@@ -25,7 +25,7 @@ export const generalStyles = StyleSheet.create({
         padding: Dimensions.get("window").height / 74,
         justifyContent: 'center',
         alignItems: 'center',
-        borderColor: '#3A7FB0',
+        borderColor: '#7A1E2D',
         borderStyle: 'solid',
         borderWidth: 2,
         width: '100%',

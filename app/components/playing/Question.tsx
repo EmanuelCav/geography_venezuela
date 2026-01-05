@@ -8,7 +8,7 @@ const Question = ({ question }: { question: IQuestion }) => {
     return (
         <View style={[playingStyles.containerQuestion, {
             backgroundColor:
-                (question.question === "¿Qué bandera se encuentra en la imagen?" || question.question === "¿Qué escudo se encuentra en la imagen?" || question.question === "¿Dónde nos encontramos?") ? "#494949" : "#3A7FB0"
+                (question.question === "¿Qué bandera se encuentra en la imagen?" || question.question === "¿Qué escudo se encuentra en la imagen?" || question.question === "¿Dónde nos encontramos?") ? "#494949" : "#7A1E2D"
         }]}>
             <View style={playingStyles.containerMainQuestion}>
                 <Text style={playingStyles.textQuestion}>{question.question}</Text>

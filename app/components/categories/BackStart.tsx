@@ -8,7 +8,7 @@ const BackStart = ({ back }: { back: () => void }) => {
         <View style={categoriesStyle.backContainer}>
             <AntDesign
                 name="caretleft"
-                color='#3A7FB0'
+                color='#7A1E2D'
                 size={Dimensions.get("window").height / 34}
                 style={{ marginLeft: Dimensions.get("window").width / 45 }}
                 onPress={back}

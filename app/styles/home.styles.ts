@@ -48,7 +48,7 @@ export const homeStyles = StyleSheet.create({
 
     textTitle: {
         fontSize: Dimensions.get("window").height / 41,
-        color: '#3A7FB0',
+        color: '#7A1E2D',
         fontWeight: '500',
         textAlign: 'center'
     },

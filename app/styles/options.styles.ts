@@ -13,7 +13,7 @@ export const optionStyle = StyleSheet.create({
     titleOption: {
         fontSize: Dimensions.get("window").height / 41,
         textAlign: 'center',
-        color: '#3A7FB0',
+        color: '#7A1E2D',
         fontWeight: '600'
     },
 
@@ -21,7 +21,7 @@ export const optionStyle = StyleSheet.create({
         fontSize: Dimensions.get("window").height / 41,
         fontWeight: '500',
         marginTop: Dimensions.get("window").height / 92,
-        color: '#3A7FB0'
+        color: '#7A1E2D'
     },
 
     containerAmountOptions: {
@@ -35,7 +35,7 @@ export const optionStyle = StyleSheet.create({
         padding: Dimensions.get("window").height / 74,
         justifyContent: 'center',
         alignItems: 'center',
-        borderColor: '#3A7FB0',
+        borderColor: '#7A1E2D',
         borderStyle: 'solid',
         borderWidth: 2,
         width: '66.66%',
@@ -50,7 +50,7 @@ export const optionStyle = StyleSheet.create({
 
     textButtonOptionNotSelected: {
         fontSize: Dimensions.get("window").height / 41,
-        color: '#3A7FB0',
+        color: '#7A1E2D',
         fontWeight: '500'
     }
 

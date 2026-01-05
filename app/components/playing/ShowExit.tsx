@@ -11,7 +11,7 @@ const ShowExit = ({ continueHome, setIsExit }: ShowExitPropsType) => {
                 <Text style={playingStyles.textPreFinish}>¿Estás seguro de que deseas salir?</Text>
                 <Pressable style={({ pressed }) => [
                     {
-                        backgroundColor: pressed ? '#4997D0' : '#3A7FB0',
+                        backgroundColor: pressed ? '#641824' : '#7A1E2D',
                     },
                     playingStyles.containerHelpsAdd
                 ]} onPress={continueHome}>
@@ -19,7 +19,7 @@ const ShowExit = ({ continueHome, setIsExit }: ShowExitPropsType) => {
                 </Pressable>
                 <Pressable style={({ pressed }) => [
                     {
-                        backgroundColor: pressed ? '#4997D0' : '#3A7FB0',
+                        backgroundColor: pressed ? '#641824' : '#7A1E2D',
                     },
                     playingStyles.containerHelpsAdd
                 ]} onPress={() => setIsExit(false)}>

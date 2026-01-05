@@ -29,7 +29,7 @@ const Option = ({ option, amountOptions, nextQuestion, disabled }: OptionPropsTy
     return (
         <Pressable style={({ pressed }) => [
             {
-                backgroundColor: pressed ? '#4997D0' : `${disabled ? '#dddddd' : '#3A7FB0' }` 
+                backgroundColor: pressed ? '#641824' : `${disabled ? '#dddddd' : '#7A1E2D' }` 
             },
             playingStyles.containerOption]} onPress={() => nextQuestion(option)} disabled={disabled}>
             <Text adjustsFontSizeToFit style={[playingStyles.textOption, {

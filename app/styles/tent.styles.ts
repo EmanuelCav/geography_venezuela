@@ -12,7 +12,7 @@ export const tentStyle = StyleSheet.create({
 
     textTitleTent: {
         fontSize: Dimensions.get("window").height / 31,
-        color: '#3A7FB0',
+        color: '#7A1E2D',
         fontWeight: '500',
         textAlign: 'center'
     },
@@ -47,21 +47,21 @@ export const tentStyle = StyleSheet.create({
 
     titleElement: {
         fontSize: Dimensions.get("window").height / 41,
-        color: '#3A7FB0',
+        color: '#7A1E2D',
         fontWeight: '600',
         marginBottom: Dimensions.get("window").height / 106
     },
 
     priceElement: {
         fontSize: Dimensions.get("window").height / 47,
-        color: '#3A7FB0',
+        color: '#7A1E2D',
         fontWeight: '600',
         marginBottom: Dimensions.get("window").height / 106
     },
 
     buyStatus: {
         fontSize: Dimensions.get("window").height / 47,
-        color: '#3A7FB0',
+        color: '#7A1E2D',
         fontWeight: '600',
         marginVertical: Dimensions.get("window").height / 106,
         textAlign: 'center'

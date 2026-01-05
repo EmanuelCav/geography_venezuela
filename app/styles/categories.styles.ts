@@ -50,13 +50,13 @@ export const categoriesStyle = StyleSheet.create({
     },
 
     categoryTextAction: {
-        color: '#3A7FB0',
+        color: '#7A1E2D',
         fontSize: Dimensions.get("window").height / 41,
         fontWeight: '600'
     },
 
     textTitleCategories: {
-        color: '#3A7FB0',
+        color: '#7A1E2D',
         fontSize: Dimensions.get("window").height / 41,
         fontWeight: '500',
         textAlign: 'center'

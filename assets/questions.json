@@ -1440,8 +1440,440 @@
         "isAnswer": false
     },
     {
+        "question": "¿Qué montaña se encuentra aquí?",
+        "category": "Montañas",
+        "answer": "Sarisariñama",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767624539/geography_venezuela/monta%C3%B1as/Sarisari%C3%B1ama_zvqucd.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué montaña se encuentra aquí?",
+        "category": "Montañas",
+        "answer": "Roraima",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767624539/geography_venezuela/monta%C3%B1as/Roraima_ovnip8.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué montaña se encuentra aquí?",
+        "category": "Montañas",
+        "answer": "Pico Piedras Blancas",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767624532/geography_venezuela/monta%C3%B1as/Pico_Piedras_Blancas_lbeqku.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué montaña se encuentra aquí?",
+        "category": "Montañas",
+        "answer": "Pico Vigirima",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767624532/geography_venezuela/monta%C3%B1as/Pico_Vigirima_lcb0wx.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué montaña se encuentra aquí?",
+        "category": "Montañas",
+        "answer": "Pico Naiguatá",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767624531/geography_venezuela/monta%C3%B1as/Pico_Naiguat%C3%A1_xgzq6s.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué montaña se encuentra aquí?",
+        "category": "Montañas",
+        "answer": "Pico Turimiquire",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767624531/geography_venezuela/monta%C3%B1as/Pico_Turimiquire_pmvbe5.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué montaña se encuentra aquí?",
+        "category": "Montañas",
+        "answer": "Collado del Cóndor",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767624531/geography_venezuela/monta%C3%B1as/Collado_del_C%C3%B3ndor_ieojz4.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué montaña se encuentra aquí?",
+        "category": "Montañas",
+        "answer": "Cerro La Torre",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767624531/geography_venezuela/monta%C3%B1as/Cerro_La_Torre_nwsice.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué montaña se encuentra aquí?",
+        "category": "Montañas",
+        "answer": "Pico Bolívar",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767624531/geography_venezuela/monta%C3%B1as/Pico_Bol%C3%ADvar_nux565.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué montaña se encuentra aquí?",
+        "category": "Montañas",
+        "answer": "Cerro Tristeza",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767624531/geography_venezuela/monta%C3%B1as/Cerro_Tristeza_drehsh.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué montaña se encuentra aquí?",
+        "category": "Montañas",
+        "answer": "Cerro Pintado",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767624531/geography_venezuela/monta%C3%B1as/Cerro_Pintado_op9cec.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué montaña se encuentra aquí?",
+        "category": "Montañas",
+        "answer": "Pico Mucunuque",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767624531/geography_venezuela/monta%C3%B1as/Pico_Mucunuque_pogvpk.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué región se encuentra aquí?",
+        "category": "Regiones Político-Administrativas",
+        "answer": "Región Zuliana",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767624758/geography_venezuela/regiones_pol%C3%ADtico-administrativas/zuliana_szbutv.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué región se encuentra aquí?",
+        "category": "Regiones Político-Administrativas",
+        "answer": "Región Nor-oriental",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767624758/geography_venezuela/regiones_pol%C3%ADtico-administrativas/nor-oriental_orw46s.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué región se encuentra aquí?",
+        "category": "Regiones Político-Administrativas",
+        "answer": "Región Los Llanos",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767624757/geography_venezuela/regiones_pol%C3%ADtico-administrativas/los_llanos_d31cok.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué región se encuentra aquí?",
+        "category": "Regiones Político-Administrativas",
+        "answer": "Región Los Andes",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767624756/geography_venezuela/regiones_pol%C3%ADtico-administrativas/los_andes_b9lot5.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué región se encuentra aquí?",
+        "category": "Regiones Político-Administrativas",
+        "answer": "Región Insular",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767624754/geography_venezuela/regiones_pol%C3%ADtico-administrativas/insular_rsgy7h.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué región se encuentra aquí?",
+        "category": "Regiones Político-Administrativas",
+        "answer": "Región Central",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767624752/geography_venezuela/regiones_pol%C3%ADtico-administrativas/central_ksyj0b.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué región se encuentra aquí?",
+        "category": "Regiones Político-Administrativas",
+        "answer": "Región Centro Occidental",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767624752/geography_venezuela/regiones_pol%C3%ADtico-administrativas/centro_occidental_t90uuh.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué región se encuentra aquí?",
+        "category": "Regiones Político-Administrativas",
+        "answer": "Región Guayana",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767624753/geography_venezuela/regiones_pol%C3%ADtico-administrativas/guayana_lf8vrq.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué región se encuentra aquí?",
+        "category": "Regiones Político-Administrativas",
+        "answer": "Región Capital",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767624752/geography_venezuela/regiones_pol%C3%ADtico-administrativas/capital_nrltei.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué región se encuentra aquí?",
+        "category": "Regiones Naturales",
+        "answer": "Llanos",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625028/geography_venezuela/regiones_naturales/llanos_k89wzp.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué región se encuentra aquí?",
+        "category": "Regiones Naturales",
+        "answer": "Insular",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625028/geography_venezuela/regiones_naturales/insular_vrn8vy.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué región se encuentra aquí?",
+        "category": "Regiones Naturales",
+        "answer": "Formación Lara-Falcón",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625024/geography_venezuela/regiones_naturales/Formaci%C3%B3n_Lara-Falc%C3%B3n_i4pa2c.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué región se encuentra aquí?",
+        "category": "Regiones Naturales",
+        "answer": "Guayana",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625025/geography_venezuela/regiones_naturales/guayana_aeorej.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué región se encuentra aquí?",
+        "category": "Regiones Naturales",
+        "answer": "Depresión del Lago Maracaibo",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625024/geography_venezuela/regiones_naturales/depresion_del_lago_maracaibo_skxwbh.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué región se encuentra aquí?",
+        "category": "Regiones Naturales",
+        "answer": "Delta del Río Orinoco",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625021/geography_venezuela/regiones_naturales/delta_del_rio_orinoco_wrtla2.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué región se encuentra aquí?",
+        "category": "Regiones Naturales",
+        "answer": "Cordillera Oriental",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625021/geography_venezuela/regiones_naturales/cordillera_oriental_eyifky.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué región se encuentra aquí?",
+        "category": "Regiones Naturales",
+        "answer": "Cordillera Central",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625020/geography_venezuela/regiones_naturales/cordillera_central_w9p286.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué región se encuentra aquí?",
+        "category": "Regiones Naturales",
+        "answer": "Andes",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625020/geography_venezuela/regiones_naturales/andes_vl28kn.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué parque nacional se encuentra aquí?",
+        "category": "Parques Nacionales",
+        "answer": "Parque Nacional Yapacana",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625192/geography_venezuela/parques_nacionales/Parque_Nacional_Yapacana_efjlfo.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué parque nacional se encuentra aquí?",
+        "category": "Parques Nacionales",
+        "answer": "Parque Nacional Sierra Nevada",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625191/geography_venezuela/parques_nacionales/Parque_Nacional_Sierra_Nevada_jzzecf.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué parque nacional se encuentra aquí?",
+        "category": "Parques Nacionales",
+        "answer": "Parque Nacional Sierra de Perijá",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625190/geography_venezuela/parques_nacionales/Parque_Nacional_Sierra_de_Perij%C3%A1_dvj0es.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué parque nacional se encuentra aquí?",
+        "category": "Parques Nacionales",
+        "answer": "Parque Nacional Serranía La Neblina",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625187/geography_venezuela/parques_nacionales/Parque_Nacional_Serran%C3%ADa_La_Neblina_dj2eka.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué parque nacional se encuentra aquí?",
+        "category": "Parques Nacionales",
+        "answer": "Parque Nacional Parima-Tapirapecó",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625186/geography_venezuela/parques_nacionales/Parque_Nacional_Parima-Tapirapec%C3%B3_tx9puf.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué parque nacional se encuentra aquí?",
+        "category": "Parques Nacionales",
+        "answer": "Parque Nacional Morrocoy",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625186/geography_venezuela/parques_nacionales/Parque_Nacional_Morrocoy_llfksq.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué parque nacional se encuentra aquí?",
+        "category": "Parques Nacionales",
+        "answer": "Parque Nacional Juan Pablo Peñaloza",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625183/geography_venezuela/parques_nacionales/Parque_Nacional_Juan_Pablo_Pe%C3%B1aloza_sr6pp6.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué parque nacional se encuentra aquí?",
+        "category": "Parques Nacionales",
+        "answer": "Parque Nacional Henri Pittier",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625181/geography_venezuela/parques_nacionales/Parque_Nacional_Henri_Pittier_mpcqhp.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué parque nacional se encuentra aquí?",
+        "category": "Parques Nacionales",
+        "answer": "Parque Nacional Jaua-Sarisariñama",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625182/geography_venezuela/parques_nacionales/Parque_Nacional_Jaua-Sarisari%C3%B1ama_izz8a0.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué parque nacional se encuentra aquí?",
+        "category": "Parques Nacionales",
+        "answer": "Parque Nacional El Tamá",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625179/geography_venezuela/parques_nacionales/Parque_Nacional_El_Tam%C3%A1_pfyaop.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué parque nacional se encuentra aquí?",
+        "category": "Parques Nacionales",
+        "answer": "Parque Nacional El Ávila",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625178/geography_venezuela/parques_nacionales/Parque_Nacional_El_%C3%81vila_ufpsib.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué parque nacional se encuentra aquí?",
+        "category": "Parques Nacionales",
+        "answer": "Parque Nacional Ciénagas de Juan Manuel",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625177/geography_venezuela/parques_nacionales/Parque_Nacional_Ci%C3%A9nagas_de_Juan_Manuel_nwzwpt.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué parque nacional se encuentra aquí?",
+        "category": "Parques Nacionales",
+        "answer": "Parque Nacional Capanaparo-Cinaruco",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625176/geography_venezuela/parques_nacionales/Parque_Nacional_Capanaparo-Cinaruco_oyczux.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué parque nacional se encuentra aquí?",
+        "category": "Parques Nacionales",
+        "answer": "Parque Nacional Canaima",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625175/geography_venezuela/parques_nacionales/Parque_Nacional_Canaima_ymjmsh.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué parque nacional se encuentra aquí?",
+        "category": "Parques Nacionales",
+        "answer": "Parque Nacional Aguaro-Guariquito",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767625174/geography_venezuela/parques_nacionales/Parque_Nacional_Aguaro-Guariquito_gkrbb7.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué pueblo indígena habita aquí?",
+        "category": "Pueblos Indígenas",
+        "answer": "Yekuana",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767629344/geography_venezuela/pueblos_indigenas/yekuana_b9knjq.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué pueblo indígena habita aquí?",
+        "category": "Pueblos Indígenas",
+        "answer": "Wayúu",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767629344/geography_venezuela/pueblos_indigenas/way%C3%BAu_rgmi6x.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué pueblo indígena habita aquí?",
+        "category": "Pueblos Indígenas",
+        "answer": "Yanomami",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767629344/geography_venezuela/pueblos_indigenas/yanomamis_gqgf27.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué pueblo indígena habita aquí?",
+        "category": "Pueblos Indígenas",
+        "answer": "Pumé",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767629343/geography_venezuela/pueblos_indigenas/pum%C3%A9_ascuw8.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué pueblo indígena habita aquí?",
+        "category": "Pueblos Indígenas",
+        "answer": "Warao",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767629344/geography_venezuela/pueblos_indigenas/warao_uaszej.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué pueblo indígena habita aquí?",
+        "category": "Pueblos Indígenas",
+        "answer": "Barí",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767629343/geography_venezuela/pueblos_indigenas/bar%C3%AD_odqxfy.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué pueblo indígena habita aquí?",
+        "category": "Pueblos Indígenas",
+        "answer": "Kariña",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767629343/geography_venezuela/pueblos_indigenas/kari%C3%B1a_ukxntm.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué pueblo indígena habita aquí?",
+        "category": "Pueblos Indígenas",
+        "answer": "Pemón",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767629343/geography_venezuela/pueblos_indigenas/pem%C3%B3n_z35yzd.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué pueblo indígena habita aquí?",
+        "category": "Pueblos Indígenas",
+        "answer": "Añú",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1767629343/geography_venezuela/pueblos_indigenas/A%C3%B1%C3%BA_pnz89y.png",
+        "isAnswer": true
+    },
+    {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Zulia",
         "options": [],
         "text": "Maracaibo",
@@ -1449,7 +1881,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Distrito Capital",
         "options": [],
         "text": "Caracas",
@@ -1457,7 +1889,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Carabobo",
         "options": [],
         "text": "Valencia",
@@ -1465,7 +1897,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Lara",
         "options": [],
         "text": "Barquisimeto",
@@ -1473,7 +1905,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Bolívar",
         "options": [],
         "text": "Ciudad Guayana",
@@ -1481,7 +1913,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Monagas",
         "options": [],
         "text": "Maturín",
@@ -1489,7 +1921,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Aragua",
         "options": [],
         "text": "Maracay",
@@ -1497,7 +1929,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Anzoátegui",
         "options": [],
         "text": "Barcelona",
@@ -1505,7 +1937,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Miranda",
         "options": [],
         "text": "Petare",
@@ -1513,7 +1945,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Bolívar",
         "options": [],
         "text": "Ciudad Bolívar",
@@ -1521,7 +1953,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Sucre",
         "options": [],
         "text": "Cumaná",
@@ -1529,7 +1961,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Aragua",
         "options": [],
         "text": "Turmero",
@@ -1537,7 +1969,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Carabobo",
         "options": [],
         "text": "Tocuyito",
@@ -1545,7 +1977,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Barinas",
         "options": [],
         "text": "Barinas",
@@ -1553,15 +1985,15 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Portuguesa",
         "options": [],
-        "text": "Acarigua - Araure",
+        "text": "Acarigua",
         "isAnswer": true
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Miranda",
         "options": [],
         "text": "Baruta",
@@ -1569,7 +2001,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Zulia",
         "options": [],
         "text": "Cabimas",
@@ -1577,7 +2009,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Anzoátegui",
         "options": [],
         "text": "Puerto La Cruz",
@@ -1585,7 +2017,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Mérida",
         "options": [],
         "text": "Mérida",
@@ -1593,7 +2025,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Aragua",
         "options": [],
         "text": "Santa Rita (Francisco Linares Alcántara)",
@@ -1601,7 +2033,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Zulia",
         "options": [],
         "text": "San Francisco",
@@ -1609,7 +2041,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Carabobo",
         "options": [],
         "text": "San Diego",
@@ -1617,7 +2049,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Carabobo",
         "options": [],
         "text": "Los Guayos",
@@ -1625,7 +2057,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Táchira",
         "options": [],
         "text": "San Cristóbal",
@@ -1633,7 +2065,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Miranda",
         "options": [],
         "text": "Guarenas",
@@ -1641,7 +2073,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Falcón",
         "options": [],
         "text": "Coro (Sta. Ana de Coro)",
@@ -1649,7 +2081,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Miranda",
         "options": [],
         "text": "Los Teques",
@@ -1657,7 +2089,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Anzoátegui",
         "options": [],
         "text": "El Tigre",
@@ -1665,7 +2097,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Carabobo",
         "options": [],
         "text": "Naguanagua",
@@ -1673,7 +2105,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Lara",
         "options": [],
         "text": "Cabudare",
@@ -1681,7 +2113,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Carabobo",
         "options": [],
         "text": "Guacara",
@@ -1689,7 +2121,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Carabobo",
         "options": [],
         "text": "Puerto Cabello",
@@ -1697,7 +2129,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Miranda",
         "options": [],
         "text": "Guatire",
@@ -1705,7 +2137,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Portuguesa",
         "options": [],
         "text": "Guanare",
@@ -1713,7 +2145,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Yaracuy",
         "options": [],
         "text": "San Felipe",
@@ -1721,7 +2153,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 1",
         "answer": "Apure",
         "options": [],
         "text": "San Fernando de Apure",
@@ -1729,7 +2161,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Miranda",
         "options": [],
         "text": "Cúa",
@@ -1737,7 +2169,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Trujillo",
         "options": [],
         "text": "Valera",
@@ -1745,7 +2177,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Sucre",
         "options": [],
         "text": "Carúpano",
@@ -1753,7 +2185,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Guárico",
         "options": [],
         "text": "Calabozo",
@@ -1761,7 +2193,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Anzoátegui",
         "options": [],
         "text": "Pozuelos",
@@ -1769,7 +2201,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Falcón",
         "options": [],
         "text": "Punto Fijo",
@@ -1777,7 +2209,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Zulia",
         "options": [],
         "text": "Ciudad Ojeda",
@@ -1785,7 +2217,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Guárico",
         "options": [],
         "text": "San Juan de los Morros",
@@ -1793,7 +2225,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Miranda",
         "options": [],
         "text": "Charallave",
@@ -1801,7 +2233,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "La Guaira",
         "options": [],
         "text": "Catia La Mar",
@@ -1809,7 +2241,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Anzoátegui",
         "options": [],
         "text": "Anaco",
@@ -1817,7 +2249,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Aragua",
         "options": [],
         "text": "Cagua",
@@ -1825,7 +2257,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Guárico",
         "options": [],
         "text": "Valle de la Pascua",
@@ -1833,7 +2265,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Aragua",
         "options": [],
         "text": "Palo Negro",
@@ -1841,7 +2273,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Miranda",
         "options": [],
         "text": "Ocumare del Tuy",
@@ -1849,7 +2281,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Nueva Esparta",
         "options": [],
         "text": "Porlamar",
@@ -1857,7 +2289,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Miranda",
         "options": [],
         "text": "Santa Lucía",
@@ -1865,7 +2297,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Mérida",
         "options": [],
         "text": "Ejido",
@@ -1873,7 +2305,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Amazonas",
         "options": [],
         "text": "Puerto Ayacucho",
@@ -1881,7 +2313,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Aragua",
         "options": [],
         "text": "El Limón",
@@ -1889,7 +2321,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Carabobo",
         "options": [],
         "text": "Mariara",
@@ -1897,7 +2329,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Falcón",
         "options": [],
         "text": "Punta Cardón",
@@ -1905,7 +2337,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Lara",
         "options": [],
         "text": "Carora",
@@ -1913,7 +2345,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Aragua",
         "options": [],
         "text": "La Victoria",
@@ -1921,7 +2353,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Táchira",
         "options": [],
         "text": "Táriba",
@@ -1929,7 +2361,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Cojedes",
         "options": [],
         "text": "San Carlos de Austria",
@@ -1937,7 +2369,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Delta Amacuro",
         "options": [],
         "text": "Tucupita",
@@ -1945,7 +2377,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Cojedes",
         "options": [],
         "text": "Tinaquillo",
@@ -1953,7 +2385,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Yaracuy",
         "options": [],
         "text": "Yaritagua",
@@ -1961,7 +2393,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Mérida",
         "options": [],
         "text": "El Vigía",
@@ -1969,7 +2401,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Bolívar",
         "options": [],
         "text": "Upata",
@@ -1977,7 +2409,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Aragua",
         "options": [],
         "text": "Villa de Cura",
@@ -1985,7 +2417,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Miranda",
         "options": [],
         "text": "El Hatillo",
@@ -1993,7 +2425,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Miranda",
         "options": [],
         "text": "El Cartanal",
@@ -2001,7 +2433,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Zulia",
         "options": [],
         "text": "San Carlos del Zulia",
@@ -2009,7 +2441,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 2",
         "answer": "Anzoátegui",
         "options": [],
         "text": "San José de Guanipa",
@@ -2017,7 +2449,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Miranda",
         "options": [],
         "text": "Santa Teresa del Tuy",
@@ -2025,7 +2457,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Miranda",
         "options": [],
         "text": "Chacao",
@@ -2033,7 +2465,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Carabobo",
         "options": [],
         "text": "Güigüe",
@@ -2041,7 +2473,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Miranda",
         "options": [],
         "text": "Caucagüita",
@@ -2049,7 +2481,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Miranda",
         "options": [],
         "text": "San Antonio de los Altos",
@@ -2057,7 +2489,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Miranda",
         "options": [],
         "text": "La Dolorita",
@@ -2065,7 +2497,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Zulia",
         "options": [],
         "text": "La Villa del Rosario (Rosario)",
@@ -2073,7 +2505,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Táchira",
         "options": [],
         "text": "Rubio",
@@ -2081,7 +2513,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Zulia",
         "options": [],
         "text": "La Concepción",
@@ -2089,7 +2521,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Miranda",
         "options": [],
         "text": "Los Dos Caminos",
@@ -2097,7 +2529,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Zulia",
         "options": [],
         "text": "Machiques",
@@ -2105,7 +2537,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "La Guaira",
         "options": [],
         "text": "Maiquetía",
@@ -2113,7 +2545,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Zulia",
         "options": [],
         "text": "Santa Cruz de Mara",
@@ -2121,7 +2553,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Carabobo",
         "options": [],
         "text": "San Joaquín",
@@ -2129,7 +2561,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Carabobo",
         "options": [],
         "text": "Morón",
@@ -2137,7 +2569,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Carabobo",
         "options": [],
         "text": "Tacarigua",
@@ -2145,7 +2577,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Miranda",
         "options": [],
         "text": "El Cafetal",
@@ -2153,7 +2585,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Apure",
         "options": [],
         "text": "Biruaca",
@@ -2161,7 +2593,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Yaracuy",
         "options": [],
         "text": "Chivacoa",
@@ -2169,7 +2601,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Guárico",
         "options": [],
         "text": "Altagracia de Orituco",
@@ -2177,7 +2609,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Zulia",
         "options": [],
         "text": "Altagracia (Los Puertos de Altagracia)",
@@ -2185,15 +2617,15 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Anzoátegui",
         "options": [],
-        "text": "Puerto Píritu - Píritu",
+        "text": "Puerto Píritu",
         "isAnswer": true
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Trujillo",
         "options": [],
         "text": "Boconó",
@@ -2201,7 +2633,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Nueva Esparta",
         "options": [],
         "text": "Villa Rosa",
@@ -2209,7 +2641,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Guárico",
         "options": [],
         "text": "Zaraza",
@@ -2217,7 +2649,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Miranda",
         "options": [],
         "text": "Carrizal",
@@ -2225,7 +2657,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Zulia",
         "options": [],
         "text": "Lagunillas",
@@ -2233,7 +2665,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Lara",
         "options": [],
         "text": "El Tocuyo",
@@ -2241,7 +2673,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Monagas",
         "options": [],
         "text": "Punta de Mata",
@@ -2249,7 +2681,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Anzoátegui",
         "options": [],
         "text": "Cantaura",
@@ -2257,7 +2689,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Zulia",
         "options": [],
         "text": "San Rafael del Moján",
@@ -2265,7 +2697,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Zulia",
         "options": [],
         "text": "Santa Rita (Santa Rita)",
@@ -2273,7 +2705,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Táchira",
         "options": [],
         "text": "Ureña",
@@ -2281,7 +2713,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Apure",
         "options": [],
         "text": "Guasdualito",
@@ -2289,7 +2721,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Barinas",
         "options": [],
         "text": "Socopó",
@@ -2297,7 +2729,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 3",
         "answer": "Táchira",
         "options": [],
         "text": "San Josecito",
@@ -2305,7 +2737,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Nueva Esparta",
         "options": [],
         "text": "San Juan Bautista",
@@ -2313,7 +2745,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "La Guaira",
         "options": [],
         "text": "Caraballeda",
@@ -2321,7 +2753,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Bolívar",
         "options": [],
         "text": "Caicara del Orinoco",
@@ -2329,7 +2761,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Táchira",
         "options": [],
         "text": "San Juan de Colón (Colón)",
@@ -2337,7 +2769,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Aragua",
         "options": [],
         "text": "El Consejo",
@@ -2345,7 +2777,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Táchira",
         "options": [],
         "text": "San Antonio del Táchira",
@@ -2353,7 +2785,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Yaracuy",
         "options": [],
         "text": "Cocorote",
@@ -2361,7 +2793,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Táchira",
         "options": [],
         "text": "Palmira",
@@ -2369,7 +2801,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Anzoátegui",
         "options": [],
         "text": "Lechería",
@@ -2377,7 +2809,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Lara",
         "options": [],
         "text": "Quibor",
@@ -2385,7 +2817,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Trujillo",
         "options": [],
         "text": "Trujillo",
@@ -2393,7 +2825,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Barinas",
         "options": [],
         "text": "Barinitas",
@@ -2401,7 +2833,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Zulia",
         "options": [],
         "text": "La Sierrita",
@@ -2409,7 +2841,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Miranda",
         "options": [],
         "text": "Santa Bárbara",
@@ -2417,7 +2849,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Portuguesa",
         "options": [],
         "text": "Villa Bruzual",
@@ -2425,7 +2857,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Yaracuy",
         "options": [],
         "text": "Nirgua",
@@ -2433,7 +2865,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Aragua",
         "options": [],
         "text": "San Mateo",
@@ -2441,7 +2873,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Anzoátegui",
         "options": [],
         "text": "Pariaguán",
@@ -2449,7 +2881,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Zulia",
         "options": [],
         "text": "Concepción",
@@ -2457,7 +2889,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Monagas",
         "options": [],
         "text": "Caripito",
@@ -2465,7 +2897,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Zulia",
         "options": [],
         "text": "Bachaquero",
@@ -2473,7 +2905,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Aragua",
         "options": [],
         "text": "Las Tejerías",
@@ -2481,7 +2913,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Miranda",
         "options": [],
         "text": "San Francisco de Yare",
@@ -2489,7 +2921,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Miranda",
         "options": [],
         "text": "Fila de Mariches",
@@ -2497,7 +2929,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Miranda",
         "options": [],
         "text": "Araira",
@@ -2505,7 +2937,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Táchira",
         "options": [],
         "text": "La Fría",
@@ -2513,7 +2945,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Sucre",
         "options": [],
         "text": "Güiria",
@@ -2521,7 +2953,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Barinas",
         "options": [],
         "text": "Ciudad Bolivia",
@@ -2529,7 +2961,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Barinas",
         "options": [],
         "text": "Santa Bárbara",
@@ -2537,7 +2969,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Mérida",
         "options": [],
         "text": "La Blanca - 12 de Octubre",
@@ -2545,7 +2977,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Apure",
         "options": [],
         "text": "Achaguas",
@@ -2553,7 +2985,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Bolívar",
         "options": [],
         "text": "Tumeremo",
@@ -2561,7 +2993,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Nueva Esparta",
         "options": [],
         "text": "La Asunción",
@@ -2569,7 +3001,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Aragua",
         "options": [],
         "text": "Santa Cruz",
@@ -2577,7 +3009,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Mérida",
         "options": [],
         "text": "Tovar",
@@ -2585,7 +3017,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 4",
         "answer": "Aragua",
         "options": [],
         "text": "Zuata",
@@ -2593,7 +3025,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Nueva Esparta",
         "options": [],
         "text": "La Guardia",
@@ -2601,7 +3033,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Nueva Esparta",
         "options": [],
         "text": "Plaza Paraguachi",
@@ -2609,7 +3041,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Monagas",
         "options": [],
         "text": "Temblador",
@@ -2617,7 +3049,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Anzoátegui",
         "options": [],
         "text": "Guanta",
@@ -2625,7 +3057,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Carabobo",
         "options": [],
         "text": "Bejuma",
@@ -2633,7 +3065,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Cojedes",
         "options": [],
         "text": "Tinaco",
@@ -2641,7 +3073,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Nueva Esparta",
         "options": [],
         "text": "Pampatar",
@@ -2649,7 +3081,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Miranda",
         "options": [],
         "text": "Higuerote",
@@ -2657,7 +3089,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Portuguesa",
         "options": [],
         "text": "Píritu",
@@ -2665,7 +3097,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Apure",
         "options": [],
         "text": "El Recreo",
@@ -2673,7 +3105,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Carabobo",
         "options": [],
         "text": "Miranda",
@@ -2681,7 +3113,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Lara",
         "options": [],
         "text": "Duaca",
@@ -2689,7 +3121,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Zulia",
         "options": [],
         "text": "Paraguaipoa",
@@ -2697,7 +3129,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Falcón",
         "options": [],
         "text": "La Vela de Coro",
@@ -2705,7 +3137,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Táchira",
         "options": [],
         "text": "Santa Ana del Táchira",
@@ -2713,7 +3145,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Nueva Esparta",
         "options": [],
         "text": "El Pilar",
@@ -2721,7 +3153,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Falcón",
         "options": [],
         "text": "Puerto Cumarebo",
@@ -2729,7 +3161,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Zulia",
         "options": [],
         "text": "Caja Seca",
@@ -2737,7 +3169,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Trujillo",
         "options": [],
         "text": "Sabana de Mendoza",
@@ -2745,7 +3177,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Guárico",
         "options": [],
         "text": "El Sombrero",
@@ -2753,7 +3185,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Carabobo",
         "options": [],
         "text": "Montalbán",
@@ -2761,7 +3193,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Zulia",
         "options": [],
         "text": "Pueblo Nuevo",
@@ -2769,7 +3201,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Miranda",
         "options": [],
         "text": "Mamporal",
@@ -2777,7 +3209,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Nueva Esparta",
         "options": [],
         "text": "Punta de Piedras",
@@ -2785,7 +3217,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Sucre",
         "options": [],
         "text": "Cariaco",
@@ -2793,7 +3225,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Guárico",
         "options": [],
         "text": "Tucupido",
@@ -2801,7 +3233,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Anzoátegui",
         "options": [],
         "text": "Aragua de Barcelona",
@@ -2809,7 +3241,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Falcón",
         "options": [],
         "text": "Tucacas",
@@ -2817,7 +3249,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Miranda",
         "options": [],
         "text": "Caucagua",
@@ -2825,7 +3257,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Trujillo",
         "options": [],
         "text": "Pampanito",
@@ -2833,7 +3265,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Bolívar",
         "options": [],
         "text": "Guasipati",
@@ -2841,7 +3273,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Nueva Esparta",
         "options": [],
         "text": "Juan Griego",
@@ -2849,7 +3281,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Bolívar",
         "options": [],
         "text": "El Callao",
@@ -2857,7 +3289,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Portuguesa",
         "options": [],
         "text": "Guanarito",
@@ -2865,7 +3297,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Táchira",
         "options": [],
         "text": "Palo Gordo",
@@ -2873,7 +3305,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 5",
         "answer": "Mérida",
         "options": [],
         "text": "Lagunillas",
@@ -2881,7 +3313,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Anzoátegui",
         "options": [],
         "text": "Soledad",
@@ -2889,7 +3321,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Táchira",
         "options": [],
         "text": "Capacho Nuevo",
@@ -2897,7 +3329,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Nueva Esparta",
         "options": [],
         "text": "El Valle del Espíritu Santo",
@@ -2905,7 +3337,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Táchira",
         "options": [],
         "text": "La Grita",
@@ -2913,7 +3345,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Bolívar",
         "options": [],
         "text": "Pozo Verde",
@@ -2921,7 +3353,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Yaracuy",
         "options": [],
         "text": "San Pablo",
@@ -2929,7 +3361,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Aragua",
         "options": [],
         "text": "San Sebastián",
@@ -2937,7 +3369,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Guárico",
         "options": [],
         "text": "Las Mercedes del Llano",
@@ -2945,7 +3377,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Táchira",
         "options": [],
         "text": "Coloncito",
@@ -2953,7 +3385,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Zulia",
         "options": [],
         "text": "Tía Juana",
@@ -2961,7 +3393,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Barinas",
         "options": [],
         "text": "Sabaneta",
@@ -2969,7 +3401,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Portuguesa",
         "options": [],
         "text": "Ospino",
@@ -2977,7 +3409,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Lara",
         "options": [],
         "text": "Sanare",
@@ -2985,7 +3417,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Miranda",
         "options": [],
         "text": "San Diego",
@@ -2993,7 +3425,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "La Guaira",
         "options": [],
         "text": "Carayaca",
@@ -3001,7 +3433,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Zulia",
         "options": [],
         "text": "Mene Grande",
@@ -3009,7 +3441,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Trujillo",
         "options": [],
         "text": "Monay",
@@ -3017,7 +3449,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Sucre",
         "options": [],
         "text": "Río Caribe",
@@ -3025,7 +3457,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Falcón",
         "options": [],
         "text": "Judibana",
@@ -3033,7 +3465,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Falcón",
         "options": [],
         "text": "Dabajuro",
@@ -3041,7 +3473,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Yaracuy",
         "options": [],
         "text": "Urachiche",
@@ -3049,7 +3481,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Trujillo",
         "options": [],
         "text": "Carvajal",
@@ -3057,7 +3489,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Sucre",
         "options": [],
         "text": "Cumanacoa",
@@ -3065,7 +3497,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Mérida",
         "options": [],
         "text": "Tabay",
@@ -3073,7 +3505,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Aragua",
         "options": [],
         "text": "San Casimiro",
@@ -3081,7 +3513,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Falcón",
         "options": [],
         "text": "Santa Cruz de Los Taques",
@@ -3089,7 +3521,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Zulia",
         "options": [],
         "text": "La Paz",
@@ -3097,7 +3529,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Aragua",
         "options": [],
         "text": "San Francisco de Asis",
@@ -3105,7 +3537,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Mérida",
         "options": [],
         "text": "Tucaní",
@@ -3113,7 +3545,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "La Guaira",
         "options": [],
         "text": "La Guaira",
@@ -3121,7 +3553,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Yaracuy",
         "options": [],
         "text": "Sabana de Parra",
@@ -3129,7 +3561,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Zulia",
         "options": [],
         "text": "San José de Perijá",
@@ -3137,7 +3569,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Sucre",
         "options": [],
         "text": "Araya",
@@ -3145,7 +3577,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "La Guaira",
         "options": [],
         "text": "Macuto",
@@ -3153,7 +3585,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Sucre",
         "options": [],
         "text": "Marigüitar",
@@ -3161,7 +3593,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Trujillo",
         "options": [],
         "text": "Betijoque",
@@ -3169,7 +3601,7 @@
     },
     {
         "question": "En qué estado se encuentra",
-        "category": "Ciudades Nivel ",
+        "category": "Ciudades Nivel 6",
         "answer": "Zulia",
         "options": [],
         "text": "Sabaneta de Palmas",
