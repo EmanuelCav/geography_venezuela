@@ -41,9 +41,14 @@ export const initialState: IUser = {
         corrects: 0,
         questions: 0,
         isImage: false
-    },
-    {
+    }, {
         category: "Ríos",
+        isSelect: false,
+        corrects: 0,
+        questions: 0,
+        isImage: true
+    }, {
+        category: "Lagos, Lagunas y Embalses",
         isSelect: false,
         corrects: 0,
         questions: 0,
@@ -62,6 +67,12 @@ export const initialState: IUser = {
         isImage: true
     }, {
         category: "Regiones Naturales",
+        isSelect: false,
+        corrects: 0,
+        questions: 0,
+        isImage: true
+    }, {
+        category: "Islas",
         isSelect: false,
         corrects: 0,
         questions: 0,
@@ -110,6 +121,12 @@ export const initialState: IUser = {
         isImage: false
     }, {
         category: "Ciudades Nivel 6",
+        isSelect: false,
+        corrects: 0,
+        questions: 0,
+        isImage: false
+    }, {
+        category: "Ciudades Nivel 7",
         isSelect: false,
         corrects: 0,
         questions: 0,
