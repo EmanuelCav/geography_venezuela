@@ -12,15 +12,15 @@ import Category from './components/Category'
 const ShowCategories = ({ categories, categoryAction }: ShowCategoriesPropsType) => {
 
     const [min, setMin] = useState<number>(0)
-    const [max, setMax] = useState<number>(6)
+    const [max, setMax] = useState<number>(7)
 
     const left = () => {
-        if (min < 6) {
+        if (min < 7) {
             return
         }
 
-        setMin(min - 6)
-        setMax(max - 6)
+        setMin(min - 7)
+        setMax(max - 7)
     }
 
     const rigth = () => {
@@ -28,8 +28,8 @@ const ShowCategories = ({ categories, categoryAction }: ShowCategoriesPropsType)
             return
         }
         
-        setMin(min + 6)
-        setMax(max + 6)
+        setMin(min + 7)
+        setMax(max + 7)
     }
 
     return (
@@ -42,8 +42,8 @@ const ShowCategories = ({ categories, categoryAction }: ShowCategoriesPropsType)
                 }
             </View>
             <View style={categoriesStyle.containerActionCategories}>
-                <AntDesign name="caretleft" color={min < 6 ? '#da8b98' : '#7A1E2D'} size={Dimensions.get("window").height / 28} onPress={left} />
-                <Text style={categoriesStyle.categoryTextAction}>{max / 6}/{Math.ceil(categories.length / (max - min))}</Text>
+                <AntDesign name="caretleft" color={min < 7 ? '#da8b98' : '#7A1E2D'} size={Dimensions.get("window").height / 28} onPress={left} />
+                <Text style={categoriesStyle.categoryTextAction}>{max / 7}/{Math.ceil(categories.length / (max - min))}</Text>
                 <AntDesign name="caretright" color={max >= categories.length ? '#da8b98' : '#7A1E2D'} size={Dimensions.get("window").height / 28} onPress={rigth} />
             </View>
         </View>

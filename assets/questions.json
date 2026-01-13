@@ -1864,6 +1864,118 @@
         "isAnswer": false
     },
     {
+        "question": "¿Qué río se encuentra aquí?",
+        "category": "Ríos",
+        "answer": "Río Ventuari",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1768233433/geography_venezuela/rios/R%C3%ADo_Ventuari_zdhgva.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué río se encuentra aquí?",
+        "category": "Ríos",
+        "answer": "Río Portuguesa",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1768233424/geography_venezuela/rios/R%C3%ADo_Portuguesa_jtq54r.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué río se encuentra aquí?",
+        "category": "Ríos",
+        "answer": "Río Tuy",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1768233432/geography_venezuela/rios/R%C3%ADo_Tuy_wdfygy.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué río se encuentra aquí?",
+        "category": "Ríos",
+        "answer": "Río Tocuyo",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1768233429/geography_venezuela/rios/R%C3%ADo_Tocuyo_hgtitm.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué río se encuentra aquí?",
+        "category": "Ríos",
+        "answer": "Río Santo Domingo",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1768233428/geography_venezuela/rios/R%C3%ADo_Santo_Domingo_j3jpsg.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué río se encuentra aquí?",
+        "category": "Ríos",
+        "answer": "Río Orinico",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1768233423/geography_venezuela/rios/R%C3%ADo_Orinoco_uygo1o.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué río se encuentra aquí?",
+        "category": "Ríos",
+        "answer": "Río Negro",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1768233423/geography_venezuela/rios/R%C3%ADo_Negro_kewa2h.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué río se encuentra aquí?",
+        "category": "Ríos",
+        "answer": "Río Meta",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1768233423/geography_venezuela/rios/rio_meta_tkeljq.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué río se encuentra aquí?",
+        "category": "Ríos",
+        "answer": "Río Caroní",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1768233422/geography_venezuela/rios/R%C3%ADo_Caron%C3%AD_yvodcf.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué río se encuentra aquí?",
+        "category": "Ríos",
+        "answer": "Río Apure",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1768233422/geography_venezuela/rios/R%C3%ADo_Apure_ydgavu.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué río se encuentra aquí?",
+        "category": "Ríos",
+        "answer": "Río Guiare",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1768233422/geography_venezuela/rios/R%C3%ADo_Guaire_gvndb4.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué río se encuentra aquí?",
+        "category": "Ríos",
+        "answer": "Río Arauca",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1768233422/geography_venezuela/rios/R%C3%ADo_Arauca_tvcf3t.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué río se encuentra aquí?",
+        "category": "Ríos",
+        "answer": "Río Chama",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1768233422/geography_venezuela/rios/R%C3%ADo_Chama_vd9cho.png",
+        "isAnswer": true
+    },
+    {
+        "question": "¿Qué río se encuentra aquí?",
+        "category": "Ríos",
+        "answer": "Río Caura",
+        "options": [],
+        "image": "https://res.cloudinary.com/projects-emanuek/image/upload/v1768233422/geography_venezuela/rios/R%C3%ADo_Caura_hdeqmr.png",
+        "isAnswer": true
+    },
+    {
         "question": "¿Qué lago/laguna/embalse se encuentra aquí?",
         "category": "Lagos, Lagunas y Embalses",
         "answer": "Laguna de Sinamaica",
@@ -4174,5 +4286,493 @@
         "options": [],
         "text": "Sabaneta de Palmas",
         "isAnswer": true
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 1",
+        "answer": "Trujillo",
+        "options": [],
+        "text": "Trujillo",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 1",
+        "answer": "Yaracuy",
+        "options": [],
+        "text": "Yaracuy",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 1",
+        "answer": "Nueva Esparta",
+        "options": [],
+        "text": "Nueva Esparta",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 1",
+        "answer": "La Guaira",
+        "options": [],
+        "text": "La Guaira",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 1",
+        "answer": "Dependencias Federales",
+        "options": [],
+        "text": "Dependencias Federales",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 1",
+        "answer": "Cojedes",
+        "options": [],
+        "text": "Cojedes",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 1",
+        "answer": "Delta Amacuro",
+        "options": [],
+        "text": "Delta Amacuro",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 1",
+        "answer": "Amazonas",
+        "options": [],
+        "text": "Amazonas",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 1",
+        "answer": "Apure",
+        "options": [],
+        "text": "Apure",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 1",
+        "answer": "Guárico",
+        "options": [],
+        "text": "Guárico",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 2",
+        "answer": "Monagas",
+        "options": [],
+        "text": "Monagas",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 2",
+        "answer": "Dependencias Federales",
+        "options": [],
+        "text": "Dependencias Federales",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 2",
+        "answer": "Delta Amacuro",
+        "options": [],
+        "text": "Delta Amacuro",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 2",
+        "answer": "Bolívar",
+        "options": [],
+        "text": "Bolívar",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 2",
+        "answer": "Barinas",
+        "options": [],
+        "text": "Barinas",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 3",
+        "answer": "Trujillo",
+        "options": [],
+        "text": "Trujillo",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 3",
+        "answer": "Sucre",
+        "options": [],
+        "text": "Sucre",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 3",
+        "answer": "Nueva Esparta",
+        "options": [],
+        "text": "Nueva Esparta",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 3",
+        "answer": "Portuguesa",
+        "options": [],
+        "text": "Portuguesa",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 3",
+        "answer": "Monagas",
+        "options": [],
+        "text": "Monagas",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 3",
+        "answer": "Lara",
+        "options": [],
+        "text": "Lara",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 3",
+        "answer": "Falcón",
+        "options": [],
+        "text": "Falcón",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 3",
+        "answer": "Dependencias Federales",
+        "options": [],
+        "text": "Dependencias Federales",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 3",
+        "answer": "Amazonas",
+        "options": [],
+        "text": "Amazonas",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 3",
+        "answer": "Barinas",
+        "options": [],
+        "text": "Barinas",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 4",
+        "answer": "Sucre",
+        "options": [],
+        "text": "Sucre",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 4",
+        "answer": "Mérida",
+        "options": [],
+        "text": "Mérida",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 4",
+        "answer": "Falcón",
+        "options": [],
+        "text": "Falcón",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 4",
+        "answer": "Dependencias Federales",
+        "options": [],
+        "text": "Dependencias Federales",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 4",
+        "answer": "Cojedes",
+        "options": [],
+        "text": "Cojedes",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 4",
+        "answer": "Delta Amacuro",
+        "options": [],
+        "text": "Delta Amacuro",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 4",
+        "answer": "Carabobo",
+        "options": [],
+        "text": "Carabobo",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 4",
+        "answer": "Amazonas",
+        "options": [],
+        "text": "Amazonas",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 5",
+        "answer": "Trujillo",
+        "options": [],
+        "text": "Trujillo",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 5",
+        "answer": "Yaracuy",
+        "options": [],
+        "text": "Yaracuy",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 5",
+        "answer": "Lara",
+        "options": [],
+        "text": "Lara",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 5",
+        "answer": "La Guaira",
+        "options": [],
+        "text": "La Guaira",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 5",
+        "answer": "Guárico",
+        "options": [],
+        "text": "Guárico",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 5",
+        "answer": "Falcón",
+        "options": [],
+        "text": "Falcón",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 5",
+        "answer": "Dependencias Federales",
+        "options": [],
+        "text": "Dependencias Federales",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 5",
+        "answer": "Delta Amacuro",
+        "options": [],
+        "text": "Delta Amacuro",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 5",
+        "answer": "Amazonas",
+        "options": [],
+        "text": "Amazonas",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 6",
+        "answer": "Monagas",
+        "options": [],
+        "text": "Monagas",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 6",
+        "answer": "La Guaira",
+        "options": [],
+        "text": "La Guaira",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 6",
+        "answer": "Dependencias Federales",
+        "options": [],
+        "text": "Dependencias Federales",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 6",
+        "answer": "Cojedes",
+        "options": [],
+        "text": "Cojedes",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 6",
+        "answer": "Delta Amacuro",
+        "options": [],
+        "text": "Delta Amacuro",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 6",
+        "answer": "Aragua",
+        "options": [],
+        "text": "Aragua",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 6",
+        "answer": "Amazonas",
+        "options": [],
+        "text": "Amazonas",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 6",
+        "answer": "Barinas",
+        "options": [],
+        "text": "Barinas",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 6",
+        "answer": "Apure",
+        "options": [],
+        "text": "Apure",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 7",
+        "answer": "Nueva Esparta",
+        "options": [],
+        "text": "Nueva Esparta",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 7",
+        "answer": "Monagas",
+        "options": [],
+        "text": "Monagas",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 7",
+        "answer": "Dependencias Federales",
+        "options": [],
+        "text": "Dependencias Federales",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 7",
+        "answer": "Cojedes",
+        "options": [],
+        "text": "Cojedes",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 7",
+        "answer": "Delta Amacuro",
+        "options": [],
+        "text": "Delta Amacuro",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 7",
+        "answer": "Bolívar",
+        "options": [],
+        "text": "Bolívar",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 7",
+        "answer": "Carabobo",
+        "options": [],
+        "text": "Carabobo",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 7",
+        "answer": "Amazonas",
+        "options": [],
+        "text": "Amazonas",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 7",
+        "answer": "Apure",
+        "options": [],
+        "text": "Apure",
+        "isAnswer": false
+    },
+    {
+        "question": "En qué estado se encuentra",
+        "category": "Ciudades Nivel 7",
+        "answer": "Anzoátegui",
+        "options": [],
+        "text": "Anzoátegui",
+        "isAnswer": false
     }
 ]

@@ -95,11 +95,11 @@ export type GameStatisticsPropsType = {
     setMinutes: (minutes: number) => void;
     questions: number;
     numberQuestion: number;
-    realSeconds: number; 
+    realSeconds: number;
     realMinutes: number;
-    isCorrect: boolean; 
-    isIncorrect: boolean; 
-    isFinish: boolean; 
+    isCorrect: boolean;
+    isIncorrect: boolean;
+    isFinish: boolean;
     isPreFinish: boolean;
     helps: number;
     changeHelp: (type: HelpType) => void;
@@ -113,16 +113,16 @@ export type TimePropsType = {
     minutes: number;
     setSeconds: (seconds: number) => void;
     setMinutes: (minutes: number) => void;
-    realSeconds: number; 
+    realSeconds: number;
     realMinutes: number;
-    isCorrect: boolean; 
-    isIncorrect: boolean; 
-    isFinish: boolean; 
+    isCorrect: boolean;
+    isIncorrect: boolean;
+    isFinish: boolean;
     isPreFinish: boolean;
 }
 
 export type QuestionGameStatisticsPropsType = {
-    questions: number, 
+    questions: number,
     numberQuestion: number
 }
 
@@ -148,12 +148,12 @@ export type AnswerPropsType = {
 }
 
 export type FinishPropsType = {
-    seconds: number; 
-    minutes: number; 
-    corrects: number; 
+    seconds: number;
+    minutes: number;
+    corrects: number;
     questions: number;
-    showErrors: () => void; 
-    continueHome : () => void;
+    showErrors: () => void;
+    continueHome: () => void;
     isGameError: boolean;
     isAdd: boolean;
     changeHelp: (type: HelpType) => void;
@@ -163,40 +163,43 @@ export type FinishPropsType = {
 }
 
 export type StatisticsFinishPropsType = {
-    seconds: number; 
-    minutes: number; 
-    corrects: number; 
+    seconds: number;
+    minutes: number;
+    corrects: number;
     questions: number;
 }
 
 export type ActionsFinishPropsType = {
     areErrors: boolean;
-    showErrors: () => void; 
-    continueHome : () => void;
+    showErrors: () => void;
+    continueHome: () => void;
     isConnectionPlaying: boolean;
     isConnection: boolean;
 }
 
 export type ActionCategoryPropsType = {
-    text: string; 
+    text: string;
     changeAllCategory: (isSelect: boolean) => void;
     isSelect: boolean;
 }
 
 export type HelpsPropsType = {
-    isAnswered: boolean; 
-    helps: number; 
+    isAnswered: boolean;
+    helps: number;
     changeHelp: (type: HelpType) => void;
 }
 
 export type MenuTentPropsType = {
     handleBuy: (productId: Product) => void;
-    elements: Product[]
+    elements: Product[];
+    isAdd: boolean;
 }
 
 export type ElementTentPropsType = {
     handleBuy: (productId: Product) => void;
     element: Product;
+    isAdd: boolean;
+    index: number;
 }
 
 export type ShowExitPropsType = {

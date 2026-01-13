@@ -1,6 +1,7 @@
 import { ReactNode, createContext, useEffect, useReducer, useState } from 'react'
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { EXPO_STORAGE } from '@env';
+import * as RNIap from "expo-iap";
 
 import { IOptionUser, IPayment, IUser } from '../../interface/User'
 import { StackNavigation } from '../../types/props.types'
@@ -40,6 +41,41 @@ const UserGlobalContext = ({ children }: { children: ReactNode }) => {
             persistState();
         }
     }, [state, isInitialized]);
+
+    useEffect(() => {
+
+        if (!isInitialized) return;
+
+        const restorePurchases = async () => {
+
+            try {
+
+                await RNIap.initConnection();
+
+                const purchases = await RNIap.getAvailablePurchases();
+
+                const hasRemoveAds = purchases.some(
+                    p => p.productId === "geo_ve_quitadds"
+                );
+
+                if (hasRemoveAds && state.isAdd) {
+                    dispatch({
+                        type: PAYMENT,
+                        payload: {
+                            isAdd: false,
+                            quantity: 0
+                        }
+                    });
+                }
+
+            } catch (error) {
+                console.log("Restore purchases error:", error);
+            }
+        }
+
+        restorePurchases()
+
+    }, [isInitialized])
 
     const optionsAction = (optionData: IOptionUser, navigation: StackNavigation) => {
 

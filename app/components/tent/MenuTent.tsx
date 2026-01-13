@@ -6,13 +6,13 @@ import { MenuTentPropsType } from '../../types/props.types';
 
 import { tentStyle } from '../../styles/tent.styles';
 
-const MenuTent = ({ elements, handleBuy }: MenuTentPropsType) => {
+const MenuTent = ({ elements, handleBuy, isAdd }: MenuTentPropsType) => {
 
     return (
         <View style={tentStyle.containerMenuTent}>
             {
                 elements.map((element, index) => {
-                    return <ElementTent handleBuy={handleBuy} element={element} key={index} />
+                    return <ElementTent handleBuy={handleBuy} element={element} index={index} isAdd={isAdd} key={index} />
                 })
             }
         </View>

@@ -4,7 +4,10 @@ import { ElementTentPropsType } from '../../../types/props.types'
 
 import { tentStyle } from '../../../styles/tent.styles'
 
-const ElementTent = ({ element, handleBuy }: ElementTentPropsType) => {
+const ElementTent = ({ element, handleBuy, isAdd, index }: ElementTentPropsType) => {
+
+    if (index === 2 && !isAdd) return null
+
     return (
         <View style={tentStyle.containElement}>
             <Text style={tentStyle.titleElement}>{element.displayName}</Text>

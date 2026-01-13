@@ -51,7 +51,8 @@ export const generateQuestions = (allQuestions: IQuestion[], categories: ICatego
         let copyAvaibleQuestions = [...avaibleQuestions]
 
         for (let i = 0; i < (amountQuestions - avaibleQuestions.length); i++) {
-            copyAvaibleQuestions.push(avaibleQuestions[i])
+            const randomQuestion = Math.floor(Math.random() * avaibleQuestions.length);
+            copyAvaibleQuestions.push(avaibleQuestions[randomQuestion])
         }
 
         return shuffle(copyAvaibleQuestions)

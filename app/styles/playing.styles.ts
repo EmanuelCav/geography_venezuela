@@ -136,11 +136,12 @@ export const playingStyles = StyleSheet.create({
         top: 0,
         left: 0,
         zIndex: 20,
+        flex: 1,
         width: Dimensions.get("window").width,
         height: Dimensions.get("window").height,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: 'rgba(58, 127, 176, 0.5)'
+        backgroundColor: 'rgba(122, 30, 45, 0.5)'
     },
 
     containPreFinish: {

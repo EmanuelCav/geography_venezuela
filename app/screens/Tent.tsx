@@ -17,7 +17,7 @@ import { IGame } from "../interface/Game";
 
 import { tentStyle } from "../styles/tent.styles";
 
-const productIds: string[] = ["geo_gu_10ayudas", "geo_gu_50ayudas", "geo_gu_quitadds"];
+const productIds: string[] = ["geo_ve_10ayudas", "geo_ve_50ayudas", "geo_ve_quitadds"];
 
 const Tent = ({ navigation }: { navigation: StackNavigation }) => {
 
@@ -72,18 +72,18 @@ const Tent = ({ navigation }: { navigation: StackNavigation }) => {
 
             if (purchase) {
                 const finalPurchase = Array.isArray(purchase) ? purchase[0] : purchase
-                const isConsumable = product.id !== "geo_gu_quitadds"
+                const isConsumable = product.id !== "geo_ve_quitadds"
                 await RNIap.finishTransaction({ purchase: finalPurchase, isConsumable })
 
-                if (product.id !== "geo_gu_quitadds") {
+                if (product.id !== "geo_ve_quitadds") {
                     setBuyStatus(`¡Has recibido ${Number(product.title.split(" ")[0])} pistas correctamente!`)
                 } else {
                     setBuyStatus("¡Se ha removido la publicidad correctamente!")
                 }
 
                 paymentAction!({
-                    isAdd: !isAdd ? false : product.id !== "geo_gu_quitadds",
-                    quantity: product.id !== "geo_gu_quitadds" ? Number(product.title.split(" ")[0]) : 0
+                    isAdd: !isAdd ? false : product.id !== "geo_ve_quitadds",
+                    quantity: product.id !== "geo_ve_quitadds" ? Number(product.title.split(" ")[0]) : 0
                 })
 
                 Alert.alert("Compra Exitosa", "Tu compra ha sido realizada.")
@@ -92,8 +92,8 @@ const Tent = ({ navigation }: { navigation: StackNavigation }) => {
         } catch (error: any) {
             if (error.code === "E_ALREADY_OWNED") {
                 paymentAction!({
-                    isAdd: !isAdd ? false : product.id !== "geo_gu_quitadds",
-                    quantity: product.id !== "geo_gu_quitadds" ? Number(product.title.split(" ")[0]) : 0
+                    isAdd: !isAdd ? false : product.id !== "geo_ve_quitadds",
+                    quantity: product.id !== "geo_ve_quitadds" ? Number(product.title.split(" ")[0]) : 0
                 })
             } else {
                 console.log("Error en la compra:", error);
@@ -113,7 +113,7 @@ const Tent = ({ navigation }: { navigation: StackNavigation }) => {
             {
                 buyStatus && <Text style={tentStyle.buyStatus}>{buyStatus}</Text>
             }
-            <MenuTent elements={products} handleBuy={handleBuy} />
+            <MenuTent elements={products} handleBuy={handleBuy} isAdd={isAdd} />
             <ButtonAccept func={handleGoBack} text="REGRESAR" isCategory={false} />
         </Container>
     );
