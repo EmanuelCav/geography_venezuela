@@ -5,9 +5,7 @@ import { Action } from "../../types/props.types";
 
 import { GENERATE_GAME, LOADING } from "../constants/game.const";
 
-import { initialState } from "../value/game.value";
-
-const gameReducer: Reducer<IGame, Action> = (state: IGame = initialState, action: Action): IGame | any => {
+const gameReducer: Reducer<IGame, Action> = (state: IGame, action: Action) => {
 
     switch (action.type) {
         case GENERATE_GAME:
@@ -23,7 +21,7 @@ const gameReducer: Reducer<IGame, Action> = (state: IGame = initialState, action
             }
 
         default:
-            break;
+            return state;
     }
 
 }

@@ -5,9 +5,7 @@ import { Action } from "../../types/props.types";
 
 import { SELECT_CATEGORY, UPDATE_OPTIONS, INITIALIZE_STATE, ACTION_CATEGORY, CHANGE_HELPS, PAYMENT, CORRECT_CATEGORY, COUNT_CATEGORY } from "../constants/user.const";
 
-import { initialState } from "../value/user.value";
-
-const userReducer: Reducer<IUser, Action> = (state: IUser = initialState, action: Action): IUser | any => {
+const userReducer: Reducer<IUser, Action> = (state: IUser, action: Action) => {
 
     switch (action.type) {
         case INITIALIZE_STATE:
@@ -82,7 +80,7 @@ const userReducer: Reducer<IUser, Action> = (state: IUser = initialState, action
             }
 
         default:
-            break;
+            return state;
     }
 
 }

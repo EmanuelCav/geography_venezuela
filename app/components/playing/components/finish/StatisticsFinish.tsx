@@ -1,15 +1,26 @@
 import { View, Text } from 'react-native'
-
-import { playingStyles } from '../../../../styles/playing.styles'
+import i18n from '../../../../../i18n'
 
 import { StatisticsFinishPropsType } from '../../../../types/props.types'
 
-const StatisticsFinish = ({ seconds, minutes, questions, corrects }: StatisticsFinishPropsType) => {
+import { playingStyles } from '../../../../styles/playing.styles'
+
+import { formatTime } from '../../../../helper/playing'
+
+const StatisticsFinish = ({ seconds, questions, corrects }: StatisticsFinishPropsType) => {
     return (
         <View style={playingStyles.containerStatisticsFinish}>
-            <Text style={playingStyles.textPreFinish}>Cantidad de preguntas: {questions}</Text>
-            <Text style={playingStyles.textPreFinish}>Respuestas correctas: {corrects}</Text>
-            <Text style={playingStyles.textPreFinish}>Tiempo: {minutes < 10 ? `0${minutes}` : `${minutes}`}:{seconds < 10 ? `0${seconds}` : `${seconds}`}</Text>
+            <Text style={playingStyles.textPreFinish}>
+                {i18n.t("amountQuestionsStatistic")}: {questions}
+            </Text>
+
+            <Text style={playingStyles.textPreFinish}>
+                {i18n.t("correctsAnswer")}: {corrects}
+            </Text>
+
+            <Text style={playingStyles.textPreFinish}>
+                {i18n.t("time")}: {formatTime(seconds)}
+            </Text>
         </View>
     )
 }

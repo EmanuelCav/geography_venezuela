@@ -1,11 +1,13 @@
+import { memo } from 'react'
 import { Text, Pressable, Dimensions, View } from 'react-native'
 import Checkbox from 'expo-checkbox'
+import i18n from '../../../../i18n'
 
 import { categoriesStyle } from '../../../styles/categories.styles'
 
 import { CategoryPropsType } from '../../../types/props.types'
 
-const Category = ({ category, categoryAction }: CategoryPropsType) => {
+const Category = memo(({ category, categoryAction }: CategoryPropsType) => {
 
   const changeCategory = () => {
     categoryAction!(category.category)
@@ -19,7 +21,9 @@ const Category = ({ category, categoryAction }: CategoryPropsType) => {
       categoriesStyle.containerCategory
     ]} onPress={changeCategory}>
       <View style={{ flex: 1 }}>
-        <Text style={categoriesStyle.categoryText}>{category.category}</Text>
+        <Text adjustsFontSizeToFit style={categoriesStyle.categoryText}>
+          {i18n.t(category.category, { defaultValue: category.category })}
+        </Text>
       </View>
       <Checkbox
         color={'#d68795'}
@@ -29,6 +33,6 @@ const Category = ({ category, categoryAction }: CategoryPropsType) => {
       />
     </Pressable>
   )
-}
+})
 
 export default Category

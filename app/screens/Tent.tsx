@@ -1,6 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import { Text, Alert } from "react-native";
 import * as RNIap from "expo-iap";
+import i18n from '../../i18n';
 
 import Container from "../components/components/Container";
 import HeaderTent from "../components/tent/HeaderTent";
@@ -76,9 +77,9 @@ const Tent = ({ navigation }: { navigation: StackNavigation }) => {
                 await RNIap.finishTransaction({ purchase: finalPurchase, isConsumable })
 
                 if (product.id !== "geo_ve_quitadds") {
-                    setBuyStatus(`¡Has recibido ${Number(product.title.split(" ")[0])} pistas correctamente!`)
+                    setBuyStatus(`${i18n.t("received")} ${Number(product.title.split(" ")[0])} ${i18n.t("aidsCorrectly")}`)
                 } else {
-                    setBuyStatus("¡Se ha removido la publicidad correctamente!")
+                    setBuyStatus(`${i18n.t("advertisingRemoved")}`)
                 }
 
                 paymentAction!({
@@ -86,7 +87,7 @@ const Tent = ({ navigation }: { navigation: StackNavigation }) => {
                     quantity: product.id !== "geo_ve_quitadds" ? Number(product.title.split(" ")[0]) : 0
                 })
 
-                Alert.alert("Compra Exitosa", "Tu compra ha sido realizada.")
+                Alert.alert(`${i18n.t("successfulPurchase")}`, `${i18n.t("messageSuccessfulPurchase")}`)
             }
 
         } catch (error: any) {
@@ -96,8 +97,8 @@ const Tent = ({ navigation }: { navigation: StackNavigation }) => {
                     quantity: product.id !== "geo_ve_quitadds" ? Number(product.title.split(" ")[0]) : 0
                 })
             } else {
-                console.log("Error en la compra:", error);
-                Alert.alert("Error", "No se pudo completar la compra.");
+                console.log(`${i18n.t("purchaseError")}:`, error);
+                Alert.alert(`${i18n.t("purchaseError")}`, `${i18n.t("purchaseNotCompleted")}.`);
             }
         }
     }
@@ -114,7 +115,7 @@ const Tent = ({ navigation }: { navigation: StackNavigation }) => {
                 buyStatus && <Text style={tentStyle.buyStatus}>{buyStatus}</Text>
             }
             <MenuTent elements={products} handleBuy={handleBuy} isAdd={isAdd} />
-            <ButtonAccept func={handleGoBack} text="REGRESAR" isCategory={false} />
+            <ButtonAccept func={handleGoBack} text={i18n.t("return")} isCategory={false} />
         </Container>
     );
 };

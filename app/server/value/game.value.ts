@@ -1,6 +1,6 @@
 import { IGame } from "../../interface/Game";
 
-export const initialState: IGame = {
+export const initialGameState: IGame = {
     questions: [],
     loading: false
 }

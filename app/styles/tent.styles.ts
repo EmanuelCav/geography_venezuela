@@ -12,8 +12,8 @@ export const tentStyle = StyleSheet.create({
 
     textTitleTent: {
         fontSize: Dimensions.get("window").height / 31,
-        color: '#7A1E2D',
-        fontWeight: '500',
+        color: '#0052A5',
+        fontFamily: 'Inter-Medium',
         textAlign: 'center'
     },
 
@@ -47,22 +47,22 @@ export const tentStyle = StyleSheet.create({
 
     titleElement: {
         fontSize: Dimensions.get("window").height / 41,
-        color: '#7A1E2D',
-        fontWeight: '600',
+        color: '#0052A5',
+        fontFamily: 'Inter-SemiBold',
         marginBottom: Dimensions.get("window").height / 106
     },
 
     priceElement: {
         fontSize: Dimensions.get("window").height / 47,
-        color: '#7A1E2D',
-        fontWeight: '600',
+        color: '#0052A5',
+        fontFamily: 'Inter-SemiBold',
         marginBottom: Dimensions.get("window").height / 106
     },
 
     buyStatus: {
         fontSize: Dimensions.get("window").height / 47,
-        color: '#7A1E2D',
-        fontWeight: '600',
+        color: '#0052A5',
+        fontFamily: 'Inter-SemiBold',
         marginVertical: Dimensions.get("window").height / 106,
         textAlign: 'center'
     },
@@ -88,7 +88,7 @@ export const tentStyle = StyleSheet.create({
     buttonMenuText: {
         fontSize: Dimensions.get("window").height / 41,
         color: '#ffffff',
-        fontWeight: '500'
+        fontFamily: 'Inter-Medium',
     },
 
     containerTextPayment: {
@@ -104,7 +104,7 @@ export const tentStyle = StyleSheet.create({
 
     textPayment: {
         color: '#0f0',
-        fontWeight: '500',
+        fontFamily: 'Inter-Medium',
         fontSize: Dimensions.get("window").height / 49,
         textAlign: 'center',
         marginVertical: Dimensions.get("window").height / 140

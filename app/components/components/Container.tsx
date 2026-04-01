@@ -4,11 +4,14 @@ import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-cont
 
 import { generalStyles } from '../../styles/general.styles';
 
+import Loading from '../response/Loading';
+
 const dimensionsSpace = Dimensions.get("window").height / 74
 
 const Container = ({ children }: { children: ReactNode }) => {
   return (
     <SafeAreaProvider>
+      <Loading />
       <SafeAreaWrapper>{children}</SafeAreaWrapper>
     </SafeAreaProvider>
   )

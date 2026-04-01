@@ -12,14 +12,14 @@ export interface ICategory {
 export interface IGame {
     questions: IQuestion[];
     loading: boolean,
-    gameAction?: (allQuestions: IQuestion[], categories: ICategory[], amountQuesions: number, amountOptions: number, navigation: StackNavigation, isConnection: boolean) => void;
+    gameAction?: (categories: ICategory[], amountQuesions: number, amountOptions: number, navigation: StackNavigation, isConnection: boolean) => void;
     dispatch?: Dispatch<Action>;
 }
 
 export interface IQuestion {
     question: string;
     image?: string;
-    options: string[];
+    options?: string[];
     category: string;
     text?: string;
     answer: string;

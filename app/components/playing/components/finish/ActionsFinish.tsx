@@ -1,4 +1,5 @@
 import { View } from 'react-native'
+import i18n from '../../../../../i18n';
 
 import ButtonFinish from './ButtonFinish'
 
@@ -13,9 +14,9 @@ const ActionsFinish = ({ areErrors, continueHome, showErrors, isConnectionPlayin
     }]}>
       {
         areErrors && (isConnectionPlaying || !isConnection) &&
-        <ButtonFinish text='REPASAR ERRORES' func={showErrors} disabled={false} />
+        <ButtonFinish text={i18n.t("reviewErrors")} func={showErrors} disabled={false} />
       }
-      <ButtonFinish text='CONTINUAR' func={continueHome} disabled={false} />
+      <ButtonFinish text={i18n.t("continue")} func={continueHome} disabled={false} />
     </View>
   )
 }

@@ -1,4 +1,5 @@
 import { Text, View, Image } from 'react-native'
+import i18n from '../../../i18n';
 
 import { tentStyle } from '../../styles/tent.styles'
 
@@ -9,7 +10,7 @@ const HeaderTent = () => {
                 <Image alt='Icon' source={require('../../../assets/imagen.png')} resizeMode='contain' style={tentStyle.imageTitleTent} />
             </View>
             <View style={tentStyle.containerEventTitle}>
-                <Text style={tentStyle.textTitleTent}>TIENDA</Text>
+                <Text style={tentStyle.textTitleTent}>{i18n.t("tent")}</Text>
             </View>
         </View>
     )

@@ -38,7 +38,7 @@ export const homeStyles = StyleSheet.create({
     buttonMenuText: {
         fontSize: Dimensions.get("window").height / 41,
         color: '#ffffff',
-        fontWeight: '500'
+        fontFamily: 'Inter-Medium'
     },
 
     imageTitle: {
@@ -48,8 +48,8 @@ export const homeStyles = StyleSheet.create({
 
     textTitle: {
         fontSize: Dimensions.get("window").height / 41,
-        color: '#7A1E2D',
-        fontWeight: '500',
+        color: '#0052A5',
+        fontFamily: 'Inter-Medium',
         textAlign: 'center'
     },
 

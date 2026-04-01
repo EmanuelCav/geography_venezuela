@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import i18n from '../../i18n';
 
 import Container from "../components/components/Container";
 import ButtonAccept from '../components/components/ButtonAccept'
@@ -22,7 +23,7 @@ const Statistics = ({ navigation }: { navigation: StackNavigation }) => {
         <Container>
             <HeaderStatistics categories={categories} />
             <BodyStatistics categories={categories} />
-            <ButtonAccept text='ACEPTAR' func={goBack} isCategory={false} />
+            <ButtonAccept text={i18n.t("return")} func={goBack} isCategory={false} />
         </Container>
     )
 }

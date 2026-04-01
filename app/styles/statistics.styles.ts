@@ -3,12 +3,11 @@ import { Dimensions, StyleSheet } from "react-native";
 export const statiscsStyles = StyleSheet.create({
 
     containerHeaderStatistics: {
-        height: '10%',
         borderWidth: 1,
         borderColor: '#ffffff',
         borderStyle: 'solid',
         padding: Dimensions.get("window").height / 106,
-        backgroundColor: '#7A1E2D'
+        backgroundColor: '#0052A5'
     },
 
     containerBodyStatistics: {
@@ -19,19 +18,20 @@ export const statiscsStyles = StyleSheet.create({
         padding: Dimensions.get("window").height / 106,
         borderStyle: 'solid',
         borderColor: '#ffffff',
-        backgroundColor: '#7A1E2D',
+        backgroundColor: '#0052A5',
         borderWidth: 2,
         marginVertical: Dimensions.get("window").height / 148
     },
 
     categoryText: {
-        fontSize: Dimensions.get("window").height / 43,
+        fontSize: Dimensions.get("window").height / 57,
         color: '#ffffff',
-        fontWeight: '500'
+        fontFamily: 'Inter-Bold',
+        marginBottom: Dimensions.get("window").height / 187
     },
 
     statisticText: {
-        fontSize: Dimensions.get("window").height / 51,
+        fontSize: Dimensions.get("window").height / 62,
         color: '#ffffff'
     }
 

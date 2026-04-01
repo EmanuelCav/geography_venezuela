@@ -1,5 +1,6 @@
 import { Pressable, View, Text, Dimensions } from 'react-native'
 import { Entypo } from '@expo/vector-icons'
+import i18n from '../../../../../i18n';
 
 import { HelpType } from '../../../../types/key.props'
 
@@ -14,7 +15,7 @@ const HelpAdd = ({ changeHelp }: { changeHelp: (type: HelpType) => void }) => {
             playingStyles.containerHelpsAdd
         ]} onPress={() => changeHelp('add')}>
             <View style={playingStyles.containHelpText}>
-                <Text style={playingStyles.textHelpGame}>Pistas</Text>
+            <Text style={playingStyles.textHelpGame}>{i18n.t("help")}</Text>
                 <Text style={playingStyles.textStatisticGame}>x2</Text>
                 <Entypo name='help' color={'#ffffff'} size={Dimensions.get("window").height / 39} />
             </View>

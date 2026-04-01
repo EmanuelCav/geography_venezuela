@@ -1,10 +1,11 @@
 import { Pressable, Text, View } from 'react-native'
+import i18n from '../../../../i18n';
 
 import { ElementTentPropsType } from '../../../types/props.types'
 
 import { tentStyle } from '../../../styles/tent.styles'
 
-const ElementTent = ({ element, handleBuy, isAdd, index }: ElementTentPropsType) => {
+const ElementTent = ({ element, handleBuy, index, isAdd }: ElementTentPropsType) => {
 
     if (index === 2 && !isAdd) return null
 
@@ -17,7 +18,7 @@ const ElementTent = ({ element, handleBuy, isAdd, index }: ElementTentPropsType)
                     backgroundColor: pressed ? '#641824' : '#7A1E2D',
                 },
                 tentStyle.buttonMenu]}>
-                <Text style={tentStyle.buttonMenuText}>Comprar</Text>
+                <Text style={tentStyle.buttonMenuText}>{i18n.t("buy")}</Text>
             </Pressable>
         </View>
     )

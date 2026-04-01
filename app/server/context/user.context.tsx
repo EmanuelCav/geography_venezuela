@@ -6,18 +6,18 @@ import * as RNIap from "expo-iap";
 import { IOptionUser, IPayment, IUser } from '../../interface/User'
 import { StackNavigation } from '../../types/props.types'
 
-import { initialState } from '../value/user.value'
+import { initialUserState } from '../value/user.value'
 import { ACTION_CATEGORY, CHANGE_HELPS, CORRECT_CATEGORY, COUNT_CATEGORY, INITIALIZE_STATE, PAYMENT, SELECT_CATEGORY, UPDATE_OPTIONS } from '../constants/user.const'
 import userReducer from '../reducer/user.reducer'
 
 import { HelpType } from '../../types/key.props'
 
-export const UserContext = createContext<IUser>(initialState)
+export const UserContext = createContext<IUser>(initialUserState)
 
 const UserGlobalContext = ({ children }: { children: ReactNode }) => {
 
-    const [state, dispatch] = useReducer(userReducer, initialState)
-    const [isInitialized, setIsInitialized] = useState<boolean>(false);
+    const [state, dispatch] = useReducer(userReducer, initialUserState)
+    const [isInitialized, setIsInitialized] = useState<boolean>(false)
     const [isFirstStart, setIsFirstStart] = useState<boolean>(false)
     const [isReviewed, setIsReviewed] = useState<boolean>(true)
 

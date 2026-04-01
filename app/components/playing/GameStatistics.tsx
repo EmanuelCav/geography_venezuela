@@ -1,3 +1,4 @@
+import { memo } from 'react'
 import { View } from 'react-native'
 
 import Time from './components/gameStatistics/Time'
@@ -9,7 +10,7 @@ import { playingStyles } from '../../styles/playing.styles'
 
 import { GameStatisticsPropsType } from '../../types/props.types'
 
-const GameStatistics = ({ seconds, minutes, setSeconds, setMinutes, numberQuestion, questions, realSeconds, realMinutes, isCorrect, isIncorrect, isFinish, isPreFinish, helps, changeHelp, isHelped, isGameError, exit }: GameStatisticsPropsType) => {
+const GameStatistics = memo(({ seconds, numberQuestion, dispatch, questions, realSeconds, isCorrect, isIncorrect, isFinish, isPreFinish, helps, changeHelp, isHelped, isGameError, exit }: GameStatisticsPropsType) => {
     return (
         <>
             {
@@ -21,11 +22,11 @@ const GameStatistics = ({ seconds, minutes, setSeconds, setMinutes, numberQuesti
                         }
                     </View> :
                     <View style={playingStyles.containerGameStatistics}>
-                        <Time minutes={minutes} seconds={seconds} setSeconds={setSeconds} setMinutes={setMinutes} realSeconds={realSeconds} realMinutes={realMinutes}
+                        <Time seconds={seconds} dispatch={dispatch} realSeconds={realSeconds}
                             isCorrect={isCorrect} isIncorrect={isIncorrect} isFinish={isFinish} isPreFinish={isPreFinish}
                         />
                         {
-                            (isCorrect || isIncorrect) ? <Back exit={exit} /> :
+                            ((isCorrect || isIncorrect) && numberQuestion !== 1) ? <Back exit={exit} /> :
                                 <Helps isAnswered={isCorrect || isIncorrect || isHelped || helps === 0} helps={helps} changeHelp={changeHelp} />
                         }
                         <QuestionGameStatistics questions={questions} numberQuestion={numberQuestion} />
@@ -33,6 +34,6 @@ const GameStatistics = ({ seconds, minutes, setSeconds, setMinutes, numberQuesti
             }
         </>
     )
-}
+})
 
 export default GameStatistics

@@ -1,4 +1,6 @@
+import { memo } from 'react';
 import { Text, Pressable, View } from 'react-native'
+import i18n from '../../../i18n';
 
 import { playingStyles } from '../../styles/playing.styles'
 
@@ -6,7 +8,7 @@ import ResponseAnswer from './components/answer/ResponseAnswer'
 
 import { AnswerPropsType } from '../../types/props.types'
 
-const Answer = ({ answer, correctAnswer, continueGame }: AnswerPropsType) => {
+const Answer = memo(({ answer, correctAnswer, continueGame }: AnswerPropsType) => {
     return (
         <Pressable style={[playingStyles.containerAnswer, {
             borderColor: answer ? '#02c028' : '#ff0000',
@@ -16,15 +18,15 @@ const Answer = ({ answer, correctAnswer, continueGame }: AnswerPropsType) => {
             <ResponseAnswer answer={answer} />
             <Text style={[playingStyles.textAnswer, {
                 color: answer ? '#02c028' : '#ff0000',
-                fontWeight: 'bold'
-            }]}>Toca para continuar</Text>
+                fontFamily: 'Inter-Bold'
+            }]}>{i18n.t("touchToContinue")}</Text>
             {
                 !answer &&
                 <View>
                     <Text style={[playingStyles.textAnswer, {
                         color: answer ? '#02c028' : '#ff0000',
                     }]}>
-                        Respuesta correcta:
+                        {i18n.t("correctAnswer")}:
                     </Text>
                     <Text style={[playingStyles.textAnswer, {
                         color: answer ? '#02c028' : '#ff0000',
@@ -35,6 +37,6 @@ const Answer = ({ answer, correctAnswer, continueGame }: AnswerPropsType) => {
             }
         </Pressable>
     )
-}
+})
 
 export default Answer

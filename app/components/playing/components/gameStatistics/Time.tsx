@@ -1,40 +1,36 @@
-import { useEffect } from 'react'
+import { memo, useEffect, useMemo } from 'react'
 import { Text } from 'react-native'
 
 import { TimePropsType } from '../../../../types/props.types'
 import { playingStyles } from '../../../../styles/playing.styles'
 
-const Time = ({ seconds, minutes, setSeconds, setMinutes, realSeconds, realMinutes, isCorrect, isIncorrect, isFinish, isPreFinish }: TimePropsType) => {
+import { RUN_TIME } from '../../../../server/constants/playing.const'
+
+import { formatTime } from '../../../../helper/playing'
+
+const Time = memo(({ seconds, dispatch, realSeconds, isCorrect, isIncorrect, isFinish, isPreFinish }: TimePropsType) => {
 
     useEffect(() => {
+        if (isFinish || isPreFinish || isCorrect || isIncorrect) return
 
-        if (seconds === 60) {
-            setSeconds(0)
-            setMinutes(minutes + 1)
-            return
-        }
+        const interval = setInterval(() => {
+            dispatch({ type: RUN_TIME })
+        }, 1000)
 
-        if (minutes === 60) {
-            return
-        }
+        return () => clearInterval(interval)
+    }, [dispatch, isFinish, isPreFinish, isCorrect, isIncorrect])
 
-        setTimeout(() => {
-            if (!isFinish && !isPreFinish) {
-                if (!isCorrect && !isIncorrect) {
-                    setSeconds(seconds + 1)
-                }
-            }
-        }, 1000);
+    const formattedTime = useMemo(() => {
+        const total = realSeconds > 0 ? realSeconds : seconds
 
+        return formatTime(total)
     }, [seconds, realSeconds])
 
     return (
         <Text style={playingStyles.textGameStatistics}>
-            {(realMinutes > 0 ? realMinutes : minutes) < 10 ? `0${(realMinutes > 0) ? realMinutes : (minutes === 60) ? 0 : minutes}` : (realMinutes > 0) ? realMinutes : (minutes === 60) ? 0 : minutes}
-            :
-            {(realSeconds > 0 ? realSeconds : seconds) < 10 ? `0${(realSeconds > 0) ? realSeconds : (seconds === 60) ? 0 : seconds}` : (realSeconds > 0) ? realSeconds : (seconds === 60) ? 0 : seconds}
+            {formattedTime}
         </Text>
     )
-}
+})
 
 export default Time

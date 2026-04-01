@@ -7,12 +7,14 @@ import { ActionCategoryPropsType } from '../../../types/props.types'
 const ActionCategory = ({ text, changeAllCategory, isSelect }: ActionCategoryPropsType) => {
   return (
     <Pressable style={({ pressed }) => [
-        {
-            backgroundColor: pressed ? '#641824' : '#7A1E2D'
-        },
-        categoriesStyle.buttonActionCategory
+      {
+        backgroundColor: pressed ? '#641824' : '#7A1E2D'
+      },
+      categoriesStyle.buttonActionCategory
     ]} onPress={() => changeAllCategory(isSelect)}>
-        <Text style={categoriesStyle.textButtonActionCategory}>{text}</Text>
+      <Text adjustsFontSizeToFit style={categoriesStyle.textButtonActionCategory}>
+        {text}
+      </Text>
     </Pressable>
   )
 }

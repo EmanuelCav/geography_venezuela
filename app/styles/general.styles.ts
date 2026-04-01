@@ -43,7 +43,7 @@ export const generalStyles = StyleSheet.create({
     textButtonAccept: {
         fontSize: Dimensions.get("window").height / 41,
         color: '#ffffff',
-        fontWeight: '500'
+        fontFamily: 'Inter-Medium'
     }
 
 })

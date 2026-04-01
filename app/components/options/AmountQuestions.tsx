@@ -1,5 +1,6 @@
 import { View, Text } from 'react-native'
 import Slider from '@react-native-community/slider'
+import i18n from '../../../i18n'
 
 import { optionStyle } from '../../styles/options.styles'
 
@@ -10,7 +11,7 @@ import { IOptionUser } from '../../interface/User'
 const AmountQuestions = ({ amountQuestions, setOptionsUser }: AmountQuestionsPropsType) => {
     return (
         <View style={optionStyle.containerAmountQuestion}>
-            <Text style={optionStyle.titleOption}>Mueve el cursor para elegír la cantidad de preguntas</Text>
+            <Text style={optionStyle.titleOption}>{i18n.t("amountQuestions")}</Text>
             <Text style={optionStyle.textAlertAmountQuestion}>{amountQuestions}</Text>
             <Slider
                 style={{ width: '100%', transform: [{ scaleY: 1.45 }] }}
@@ -23,11 +24,11 @@ const AmountQuestions = ({ amountQuestions, setOptionsUser }: AmountQuestionsPro
                 onValueChange={(value) => setOptionsUser((optionData: IOptionUser) => ({
                     ...optionData, amountQuestions: value
                 }))}
-                step={5}    
+                step={5}
                 accessibilityRole={undefined}
             />
         </View>
     )
-}  
+}
 
 export default AmountQuestions

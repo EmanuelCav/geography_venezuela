@@ -1,4 +1,5 @@
 import { View } from 'react-native'
+import i18n from '../../../i18n';
 
 import { categoriesStyle } from '../../styles/categories.styles'
 
@@ -12,8 +13,8 @@ const ActionsCategories = ({ categoryAllAction }: { categoryAllAction: (isSelect
 
   return (
     <View style={categoriesStyle.containerActionsCategories}>
-        <ActionCategory text='Elegir todo' changeAllCategory={changeAllCategory} isSelect={true} />
-        <ActionCategory text='Quitar todo' changeAllCategory={changeAllCategory} isSelect={false}/>
+      <ActionCategory text={i18n.t("selectAll")} changeAllCategory={changeAllCategory} isSelect={true} />
+      <ActionCategory text={i18n.t("removeAll")} changeAllCategory={changeAllCategory} isSelect={false} />
     </View>
   )
 }

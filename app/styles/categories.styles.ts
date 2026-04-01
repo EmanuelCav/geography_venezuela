@@ -45,20 +45,19 @@ export const categoriesStyle = StyleSheet.create({
     },
 
     categoryText: {
-        color: '#ffffff',
-        fontSize: Dimensions.get("window").height / 52
+        color: '#ffffff'
     },
 
     categoryTextAction: {
-        color: '#7A1E2D',
+        color: '#0052A5',
         fontSize: Dimensions.get("window").height / 41,
-        fontWeight: '600'
+        fontFamily: 'Inter-SemiBold'
     },
 
     textTitleCategories: {
-        color: '#7A1E2D',
-        fontSize: Dimensions.get("window").height / 41,
-        fontWeight: '500',
+        color: '#0052A5',
+        fontSize: Dimensions.get("window").height / 47,
+        fontFamily: 'Inter-Medium',
         textAlign: 'center'
     },
 
@@ -78,7 +77,7 @@ export const categoriesStyle = StyleSheet.create({
         borderColor: '#ffffff',
         borderWidth: 1,
         borderStyle: 'solid',
-        width: '40%',
+        width: '48%',
         shadowColor: "#000",
         shadowOffset: {
             width: 0,
@@ -91,8 +90,7 @@ export const categoriesStyle = StyleSheet.create({
 
     textButtonActionCategory: {
         color: '#ffffff',
-        fontWeight: '500',
-        fontSize: Dimensions.get("window").height / 52
+        fontFamily: 'Inter-Medium'
     },
 
     textWithoutConnection: {

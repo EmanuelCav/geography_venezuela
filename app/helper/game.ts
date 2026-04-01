@@ -1,8 +1,8 @@
 import { ICategory, IQuestion } from "../interface/Game"
 
-export const generateGame = (questions: IQuestion[], allQuestions: IQuestion[], amountQuestions: number, amountOptions: number): IQuestion[] => {
+export const generateGame = (questions: IQuestion[], allQuestions: IQuestion[], amountOptions: number): IQuestion[] => {
 
-    for (let i = 0; i < amountQuestions; i++) {
+    for (let i = 0; i < questions.length; i++) {
 
         const options: IQuestion[] = shuffle(allQuestions.filter(q => (q.category === questions[i].category) && (q.answer !== questions[i].answer)))
 
@@ -13,17 +13,14 @@ export const generateGame = (questions: IQuestion[], allQuestions: IQuestion[], 
         }
 
         const optionsQuestion: string[] = [...new Set([...answersOptions])]
-
         const optionRandom = Math.floor(Math.random() * amountOptions)
-
-        if (questions[i].options.length > 0) continue
 
         for (let j = 0; j < amountOptions; j++) {
 
             if (j === optionRandom) {
-                questions[i].options.push(questions[i].answer)
+                questions[i].options!.push(questions[i].answer)
             } else {
-                questions[i].options.push(optionsQuestion[j])
+                questions[i].options!.push(optionsQuestion[j])
             }
         }
 
@@ -37,12 +34,11 @@ export const generateQuestions = (allQuestions: IQuestion[], categories: ICatego
 
     let avaibleQuestions: IQuestion[] = []
 
-
     for (let i = 0; i < categories.filter(c => c.isSelect).length; i++) {
         const filterQuestions: IQuestion[] = allQuestions.filter(q => (q.category === categories.filter(c => c.isSelect)[i].category) && q.isAnswer)
 
         for (let j = 0; j < filterQuestions.length; j++) {
-            avaibleQuestions.push(filterQuestions[j])
+            avaibleQuestions.push({ ...filterQuestions[j], options: [] })
         }
     }
 
@@ -52,7 +48,10 @@ export const generateQuestions = (allQuestions: IQuestion[], categories: ICatego
 
         for (let i = 0; i < (amountQuestions - avaibleQuestions.length); i++) {
             const randomQuestion = Math.floor(Math.random() * avaibleQuestions.length);
-            copyAvaibleQuestions.push(avaibleQuestions[randomQuestion])
+            copyAvaibleQuestions.push({
+                ...avaibleQuestions[randomQuestion],
+                options: []
+            })
         }
 
         return shuffle(copyAvaibleQuestions)
@@ -76,10 +75,4 @@ export const shuffle = (array: any[]): any[] => {
     }
 
     return array;
-}
-
-export const emptyOptions = (questions: IQuestion[]) => {
-    for (let i = 0; i < questions.length; i++) {
-        questions[i].options = []
-    }
 }

@@ -15,30 +15,26 @@ const ShowCategories = ({ categories, categoryAction }: ShowCategoriesPropsType)
     const [max, setMax] = useState<number>(7)
 
     const left = () => {
-        if (min < 7) {
-            return
-        }
+        if (min < 7) return
 
-        setMin(min - 7)
-        setMax(max - 7)
+        setMin(prev => prev - 7)
+        setMax(prev => prev - 7)
     }
 
     const rigth = () => {
-        if (max >= categories.length) {
-            return
-        }
-        
-        setMin(min + 7)
-        setMax(max + 7)
+        if (max >= categories.length) return
+
+        setMin(prev => prev + 7)
+        setMax(prev => prev + 7)
     }
 
     return (
         <View style={categoriesStyle.containerShowCategories}>
             <View style={categoriesStyle.containShowCategories}>
                 {
-                    categories.map((category: ICategory, index: number) => {
-                        return <Category category={category} categoryAction={categoryAction} key={index} />
-                    }).slice(min, max)
+                    categories.slice(min, max).map((category: ICategory) => {
+                        return <Category category={category} categoryAction={categoryAction} key={category.category} />
+                    })
                 }
             </View>
             <View style={categoriesStyle.containerActionCategories}>

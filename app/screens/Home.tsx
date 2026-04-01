@@ -1,5 +1,4 @@
-import { useContext, useEffect, useState } from 'react'
-import { fetch } from "@react-native-community/netinfo";
+import { useContext, useEffect } from 'react'
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as StoreReview from 'expo-store-review';
 
@@ -15,17 +14,14 @@ import { IGame } from '../interface/Game'
 import { UserContext } from '../server/context/user.context'
 import { GameContext } from '../server/context/game.context'
 
+import { useConnection } from '../hooks/useConnection';
+
 const Home = ({ navigation }: { navigation: StackNavigation }) => {
 
   const { categories, amountOptions, amountQuestions, isAdd, categoryAllAction, isReviewed } = useContext<IUser>(UserContext)
-  const { gameAction, dispatch } = useContext<IGame>(GameContext)
+  const { gameAction } = useContext<IGame>(GameContext)
 
-  const [isConnection, setIsConnection] = useState<boolean>(true)
-  const [isChangeView, setIsChangeView] = useState<boolean>(false)
-
-  const handleChangeView = () => {
-    setIsChangeView(!isChangeView)
-  }
+  const isConnection = useConnection()
 
   const requestAppReview = async () => {
 
@@ -67,10 +63,6 @@ const Home = ({ navigation }: { navigation: StackNavigation }) => {
 
   }, [])
 
-  useEffect(() => {
-    fetch().then(conn => conn).then(state => setIsConnection(state.isConnected!));
-  }, [isConnection, isChangeView])
-
   return (
     <Container>
       {
@@ -78,7 +70,7 @@ const Home = ({ navigation }: { navigation: StackNavigation }) => {
       }
       <Title />
       <Menu navigation={navigation} categories={categories} amountOptions={amountOptions} amountQuestions={amountQuestions} gameAction={gameAction!}
-        isConnection={isConnection} handleChangeView={handleChangeView} dispatch={dispatch} categoryAllAction={categoryAllAction!} />
+        isConnection={isConnection} categoryAllAction={categoryAllAction!} />
     </Container>
   )
 }

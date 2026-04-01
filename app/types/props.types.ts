@@ -1,10 +1,10 @@
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
-import { SetStateAction } from "react";
+import { ActionDispatch, SetStateAction } from "react";
 import { RouteProp } from "@react-navigation/native";
 import { Product } from "expo-iap";
 
 import { IOptionUser } from "../interface/User";
-import { ICategory, IQuestion } from "../interface/Game";
+import { ICategory } from "../interface/Game";
 import { HelpType } from "./key.props";
 
 export type RouteType = {
@@ -34,7 +34,7 @@ export type CategoriesType = {
 
 export type Action = {
     type: string;
-    payload: any;
+    payload?: any;
 }
 
 export type ButtonMenuPropsType = {
@@ -61,9 +61,9 @@ export type AmountOptionsPropsType = {
 }
 
 export type ButtonOptionsPropsType = {
-    text: string;
-    amountOptions: number;
-    func: (number: number) => void;
+    value: number
+    onPress: (value: number) => void
+    amountOptions: number
 }
 
 export type ShowCategoriesPropsType = {
@@ -81,22 +81,17 @@ export type MenuPropsType = {
     navigation: StackNavigation;
     amountOptions: number;
     amountQuestions: number;
-    gameAction: (allQuestions: IQuestion[], categories: ICategory[], amountQuesions: number, amountOptions: number, navigation: StackNavigation, isConnection: boolean) => void;
-    handleChangeView: () => void;
+    gameAction: (categories: ICategory[], amountQuesions: number, amountOptions: number, navigation: StackNavigation, isConnection: boolean) => void;
     isConnection: boolean;
-    dispatch: any;
     categoryAllAction: (isSelect: boolean) => void;
 }
 
 export type GameStatisticsPropsType = {
     seconds: number;
-    minutes: number;
-    setSeconds: (seconds: number) => void;
-    setMinutes: (minutes: number) => void;
+    dispatch: ActionDispatch<[action: Action]>;
     questions: number;
     numberQuestion: number;
     realSeconds: number;
-    realMinutes: number;
     isCorrect: boolean;
     isIncorrect: boolean;
     isFinish: boolean;
@@ -110,11 +105,8 @@ export type GameStatisticsPropsType = {
 
 export type TimePropsType = {
     seconds: number;
-    minutes: number;
-    setSeconds: (seconds: number) => void;
-    setMinutes: (minutes: number) => void;
+    dispatch: ActionDispatch<[action: Action]>;
     realSeconds: number;
-    realMinutes: number;
     isCorrect: boolean;
     isIncorrect: boolean;
     isFinish: boolean;
@@ -128,14 +120,12 @@ export type QuestionGameStatisticsPropsType = {
 
 export type OptionPropsTypes = {
     option: string;
-    amountOptions: number;
     nextQuestion: (value: string) => void;
     disabled: boolean;
 }
 
 export type SectionOptionsPropsTypes = {
     options: string[]
-    amountOptions: number;
     nextQuestion: (value: string) => void;
     optionsHelped: string[];
     isHelped: boolean;
@@ -149,7 +139,6 @@ export type AnswerPropsType = {
 
 export type FinishPropsType = {
     seconds: number;
-    minutes: number;
     corrects: number;
     questions: number;
     showErrors: () => void;
@@ -164,7 +153,6 @@ export type FinishPropsType = {
 
 export type StatisticsFinishPropsType = {
     seconds: number;
-    minutes: number;
     corrects: number;
     questions: number;
 }
@@ -198,11 +186,17 @@ export type MenuTentPropsType = {
 export type ElementTentPropsType = {
     handleBuy: (productId: Product) => void;
     element: Product;
-    isAdd: boolean;
     index: number;
+    isAdd: boolean;
 }
 
 export type ShowExitPropsType = {
     continueHome: () => void;
     setIsExit: (isExit: boolean) => void;
+}
+
+export type SelectLanguagePropsType = {
+    setIsSelectLanguage: (isSelectLanguage: boolean) => void;
+    languageSelected: string;
+    setLanguageSelected: (languageSelected: string) => void;
 }

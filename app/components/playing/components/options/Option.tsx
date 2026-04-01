@@ -1,42 +1,24 @@
-import { Text, Pressable, Dimensions } from 'react-native'
+import { memo } from 'react'
+import { Text, Pressable } from 'react-native'
+import i18n from '../../../../../i18n'
 
 import { playingStyles } from '../../../../styles/playing.styles'
 
 import { OptionPropsTypes } from '../../../../types/props.types'
 
-const Option = ({ option, amountOptions, nextQuestion, disabled }: OptionPropsTypes) => {
-
-    const usersOptions = (): number => {
-        if (amountOptions === 2) {
-            return 18
-        }
-
-        if (amountOptions === 4) {
-            return 16
-        }
-
-        if (amountOptions === 6) {
-            return 14
-        }
-
-        if (amountOptions === 8) {
-            return 12
-        }
-
-        return 16
-    }
+const Option = memo(({ option, nextQuestion, disabled }: OptionPropsTypes) => {
 
     return (
         <Pressable style={({ pressed }) => [
             {
-                backgroundColor: pressed ? '#641824' : `${disabled ? '#dddddd' : '#7A1E2D' }` 
+                backgroundColor: pressed ? '#641824' : `${disabled ? '#dddddd' : '#7A1E2D'}`
             },
             playingStyles.containerOption]} onPress={() => nextQuestion(option)} disabled={disabled}>
-            <Text adjustsFontSizeToFit style={[playingStyles.textOption, {
-                fontSize: usersOptions()
-            }]}>{option}</Text>
+            <Text adjustsFontSizeToFit style={playingStyles.textOption}>
+                {i18n.t(option, { defaultValue: option })}
+            </Text>
         </Pressable>
     )
-}
+})
 
 export default Option

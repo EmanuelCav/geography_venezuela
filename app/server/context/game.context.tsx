@@ -1,40 +1,36 @@
-import { ReactNode, createContext, useReducer } from 'react'
+import { ReactNode, createContext, useReducer, useRef } from 'react'
+import allQuestions from '../../../assets/questions.json';
 
 import { StackNavigation } from '../../types/props.types'
 import { ICategory, IGame, IQuestion } from '../../interface/Game'
 
 import gameReducer from '../reducer/game.reducer'
-import { initialState } from '../value/game.value'
+import { initialGameState } from '../value/game.value'
 import { GENERATE_GAME, LOADING } from '../constants/game.const'
 
 import { generateGame, generateQuestions } from '../../helper/game'
 
-export const GameContext = createContext<IGame>(initialState)
+export const GameContext = createContext<IGame>(initialGameState)
 
 const GameGlobalContext = ({ children }: { children: ReactNode }) => {
 
-    const [state, dispatch] = useReducer(gameReducer, initialState)
+    const [state, dispatch] = useReducer(gameReducer, initialGameState)
+    const questionsRef = useRef<IQuestion[]>(allQuestions)
 
-    const gameAction = (allQuestions: IQuestion[], categories: ICategory[], amountQuestions: number, amountOptions: number, navigation: StackNavigation, isConnection: boolean) => {
+    const gameAction = (categories: ICategory[], amountQuestions: number, amountOptions: number, navigation: StackNavigation, isConnection: boolean) => {
 
-        const questions = generateQuestions(allQuestions, categories, amountQuestions)
+        dispatch({ type: LOADING, payload: true })
 
-        const game = generateGame(questions, allQuestions, amountQuestions, amountOptions)
+        const questionsConnection = isConnection ? questionsRef.current : questionsRef.current.filter(q => !q.image)
 
-        dispatch({
-            type: GENERATE_GAME,
-            payload: game
-        })
+        const questions = generateQuestions(questionsConnection, categories, amountQuestions)
 
-        dispatch!({
-            type: LOADING,
-            payload: false
-        })
+        const game = generateGame(questions, questionsConnection, amountOptions)
 
-        navigation.navigate('Playing', {
-            isConnection
-        })
+        dispatch({ type: GENERATE_GAME, payload: game })
+        dispatch({ type: LOADING, payload: false })
 
+        navigation.replace('Playing', { isConnection })
     }
 
     return (

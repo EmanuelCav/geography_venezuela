@@ -2,7 +2,7 @@
   "expo": {
     "name": "Mapa de Venezuela Quiz",
     "slug": "GeografiaDeVenezuela",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": false,
@@ -19,7 +19,7 @@
     },
     "android": {
       "package": "com.geografiadevenezuela.aprendegeografiavenezuela",
-      "versionCode": 1,
+      "versionCode": 4,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
