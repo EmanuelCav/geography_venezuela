@@ -39,7 +39,10 @@
         {
           "androidAppId": "ca-app-pub-8789796567862358~8419095159"
         }
-      ]
+      ],
+      "expo-build-properties",
+      "expo-font",
+      "expo-web-browser"
     ],
     "extra": {
       "eas": {

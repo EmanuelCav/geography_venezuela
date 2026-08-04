@@ -3,7 +3,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as StoreReview from 'expo-store-review';
 
 import Container from '../components/components/Container';
-import Banner from '../components/add/Banner'
+import AdSwitcher from '../components/add/AdSwitcher';
 import Menu from '../components/home/Menu'
 import Title from '../components/home/Title'
 
@@ -66,7 +66,7 @@ const Home = ({ navigation }: { navigation: StackNavigation }) => {
   return (
     <Container>
       {
-        isConnection && isAdd && <Banner />
+        isConnection && isAdd && <AdSwitcher />
       }
       <Title />
       <Menu navigation={navigation} categories={categories} amountOptions={amountOptions} amountQuestions={amountQuestions} gameAction={gameAction!}

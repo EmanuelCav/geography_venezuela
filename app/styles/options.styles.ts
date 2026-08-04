@@ -142,6 +142,20 @@ export const optionStyle = StyleSheet.create({
         borderStyle: 'solid',
         borderWidth: 3,
         padding: Dimensions.get("window").height / 106
+    },
+
+    containerButtonsQuestions: {
+        flexDirection: "row",
+        justifyContent: "space-evenly",
+        width: "100%"
+    },
+
+    buttonQuestion: {
+        width: 45,
+        height: 45,
+        borderRadius: 35,
+        justifyContent: "center",
+        alignItems: "center",
     }
 
 })

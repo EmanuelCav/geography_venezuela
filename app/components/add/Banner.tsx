@@ -11,7 +11,7 @@ const Banner = () => {
         <View style={generalStyles.containerBanner}>
             <BannerAd
                 unitId={adUnitId as string}
-                size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER}
+                size={BannerAdSize.BANNER}
             />
         </View>
     )

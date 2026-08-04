@@ -200,3 +200,10 @@ export type SelectLanguagePropsType = {
     languageSelected: string;
     setLanguageSelected: (languageSelected: string) => void;
 }
+
+export type NativeAdComponentPropsType = {
+    visible: boolean;
+    onAdLoaded: () => void;
+    onAdFailed: () => void;
+    onTimeout: () => void;
+}

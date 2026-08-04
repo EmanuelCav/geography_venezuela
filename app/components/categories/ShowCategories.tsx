@@ -38,9 +38,9 @@ const ShowCategories = ({ categories, categoryAction }: ShowCategoriesPropsType)
                 }
             </View>
             <View style={categoriesStyle.containerActionCategories}>
-                <AntDesign name="caretleft" color={min < 7 ? '#da8b98' : '#7A1E2D'} size={Dimensions.get("window").height / 28} onPress={left} />
+                <AntDesign name="caret-left" color={min < 7 ? '#da8b98' : '#7A1E2D'} size={Dimensions.get("window").height / 28} onPress={left} />
                 <Text style={categoriesStyle.categoryTextAction}>{max / 7}/{Math.ceil(categories.length / (max - min))}</Text>
-                <AntDesign name="caretright" color={max >= categories.length ? '#da8b98' : '#7A1E2D'} size={Dimensions.get("window").height / 28} onPress={rigth} />
+                <AntDesign name="caret-right" color={max >= categories.length ? '#da8b98' : '#7A1E2D'} size={Dimensions.get("window").height / 28} onPress={rigth} />
             </View>
         </View>
     )

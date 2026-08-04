@@ -12,7 +12,7 @@ const MenuTent = ({ elements, handleBuy, isAdd }: MenuTentPropsType) => {
         <View style={tentStyle.containerMenuTent}>
             {
                 elements.map((element, index) => {
-                    return <ElementTent handleBuy={handleBuy} element={element} index={index} isAdd={isAdd} key={index} />
+                    return <ElementTent handleBuy={handleBuy} element={element} isAdd={isAdd} index={index} key={element.id} />
                 })
             }
         </View>

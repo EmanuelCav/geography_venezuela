@@ -14,6 +14,11 @@ export const generalStyles = StyleSheet.create({
         alignItems: 'center'
     },
 
+    containerNative: {
+        height: '10%',
+        width: '100%',
+    },
+
     containerButtonAccept: {
         width: '100%',
         height: '20%',

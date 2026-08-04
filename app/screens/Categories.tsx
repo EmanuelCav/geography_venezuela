@@ -17,6 +17,7 @@ import { categoriesStyle } from "../styles/categories.styles";
 
 import { UserContext } from '../server/context/user.context'
 import { GameContext } from "../server/context/game.context";
+
 import { useConnection } from "../hooks/useConnection";
 
 const Categories = ({ navigation, route }: CategoriesType) => {

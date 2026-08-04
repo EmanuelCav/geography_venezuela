@@ -7,7 +7,7 @@ import { playingStyles } from '../../../../styles/playing.styles'
 const ResponseAnswer = ({ answer }: { answer: boolean }) => {
     return (
         <View style={playingStyles.containerResponseAnswer}>
-            <AntDesign name={answer ? 'checkcircle' : 'closecircle'} color={answer ? '#02c028' : '#ff0000'} size={Dimensions.get("window").height / 46} />
+            <AntDesign name={answer ? 'check-circle' : 'close-circle'} color={answer ? '#02c028' : '#ff0000'} size={Dimensions.get("window").height / 46} />
             <Text style={[playingStyles.textAnswer, {
                 color: answer ? '#02c028' : '#ff0000',
                 marginLeft: Dimensions.get("window").width / 60
