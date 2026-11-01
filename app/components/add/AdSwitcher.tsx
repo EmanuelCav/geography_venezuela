@@ -7,23 +7,14 @@ const RETRY_INTERVAL = 60000;
 
 const AdSwitcher = () => {
 
-  const [nativeLoaded, setNativeLoaded] = useState(false);
   const [showBanner, setShowBanner] = useState(false);
   const [reloadKey, setReloadKey] = useState(0);
 
   const handleLoaded = useCallback(() => {
-    setNativeLoaded(true);
     setShowBanner(false);
   }, []);
 
-  const handleTimeout = useCallback(() => {
-    if (!nativeLoaded) {
-      setShowBanner(true);
-    }
-  }, [nativeLoaded]);
-
   const handleFailed = useCallback(() => {
-    setNativeLoaded(false);
     setShowBanner(true);
   }, []);
 
@@ -31,28 +22,30 @@ const AdSwitcher = () => {
 
     if (!showBanner) return;
 
-    const interval = setInterval(() => {
-      setReloadKey((v) => v + 1);
+    const timeout = setTimeout(() => {
+
+      setShowBanner(false);
+      setReloadKey((value) => value + 1);
+
     }, RETRY_INTERVAL);
 
-    return () => clearInterval(interval);
+    return () => clearTimeout(timeout);
 
   }, [showBanner]);
 
+  if (showBanner) {
+    return <Banner />
+  }
+
   return (
-    <>
-      {showBanner && !nativeLoaded && <Banner />}
+    <NativeAdComponent
+      key={reloadKey}
+      onAdLoaded={handleLoaded}
+      onAdFailed={handleFailed}
+      onTimeout={handleFailed}
+    />
+  )
 
-      <NativeAdComponent
-        key={reloadKey}
-        visible={nativeLoaded}
-        onAdLoaded={handleLoaded}
-        onAdFailed={handleFailed}
-        onTimeout={handleTimeout}
-      />
-    </>
-  );
-
-};
+}
 
 export default AdSwitcher;

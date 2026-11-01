@@ -202,7 +202,6 @@ export type SelectLanguagePropsType = {
 }
 
 export type NativeAdComponentPropsType = {
-    visible: boolean;
     onAdLoaded: () => void;
     onAdFailed: () => void;
     onTimeout: () => void;

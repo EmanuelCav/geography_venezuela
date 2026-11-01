@@ -2,7 +2,7 @@
   "expo": {
     "name": "Mapa de Venezuela Quiz",
     "slug": "GeografiaDeVenezuela",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": false,
@@ -19,7 +19,7 @@
     },
     "android": {
       "package": "com.geografiadevenezuela.aprendegeografiavenezuela",
-      "versionCode": 4,
+      "versionCode": 5,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -37,10 +37,18 @@
       [
         "react-native-google-mobile-ads",
         {
-          "androidAppId": "ca-app-pub-8789796567862358~8419095159"
+          "androidAppId": "ca-app-pub-8789796567862358~8419095159",
+          "delayAppMeasurementInit": true
         }
       ],
-      "expo-build-properties",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "extraProguardRules": "-keep class com.google.android.gms.internal.consent_sdk.** { *; }"
+          }
+        }
+      ],
       "expo-font",
       "expo-web-browser"
     ],

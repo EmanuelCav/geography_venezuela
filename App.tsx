@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { StatusBar } from 'react-native';
+import { StatusBar, Text } from 'react-native';
+import MobileAds, { AdsConsent, AdsConsentStatus } from 'react-native-google-mobile-ads';
 import * as SplashScreen from 'expo-splash-screen';
 import * as Font from 'expo-font';
 import { initLanguage } from './i18n';
@@ -30,9 +31,18 @@ export default function App() {
   const [appReady, setAppReady] = useState<boolean>(false)
 
   useEffect(() => {
-    const prepareApp = async () => {
+
+    const initializeAdsAndApp = async () => {
 
       try {
+
+        const consentInfo = await AdsConsent.requestInfoUpdate();
+        
+        if (consentInfo.isConsentFormAvailable && consentInfo.status === AdsConsentStatus.REQUIRED) {
+          await AdsConsent.showForm();
+        }
+
+        await MobileAds().initialize();
 
         await Font.loadAsync({
           'Inter-Regular': require('./assets/fonts/Inter-Regular.ttf'),
@@ -41,19 +51,19 @@ export default function App() {
           'Inter-Bold': require('./assets/fonts/Inter-Bold.ttf')
         });
 
-        await initLanguage()
-        await new Promise(resolve => setTimeout(resolve, 2000))
+        await initLanguage();
+        await new Promise(resolve => setTimeout(resolve, 1500));
 
       } catch (e) {
-        console.warn(e)
+        console.warn(e);
       } finally {
-        setAppReady(true)
-        await SplashScreen.hideAsync()
+        setAppReady(true);
+        await SplashScreen.hideAsync();
       }
-    }
+    };
 
-    prepareApp()
-  }, [])
+    initializeAdsAndApp();
+  }, []);
 
   if (!appReady) {
     return <LoadingSplash />

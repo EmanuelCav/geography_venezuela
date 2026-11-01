@@ -2383,7 +2383,7 @@
         "question": "En qué estado se encuentra",
         "category": "Ciudades Nivel 1",
         "answer": "Carabobo",
-        "text": "San Diego",
+        "text": "San Diego (San Diego)",
         "isAnswer": true
     },
     {
@@ -2922,7 +2922,7 @@
         "question": "En qué estado se encuentra",
         "category": "Ciudades Nivel 4",
         "answer": "Zulia",
-        "text": "Lagunillas",
+        "text": "Lagunillas (Lagunillas)",
         "isAnswer": true
     },
     {
@@ -3083,7 +3083,7 @@
         "question": "En qué estado se encuentra",
         "category": "Ciudades Nivel 4",
         "answer": "Miranda",
-        "text": "Santa Bárbara",
+        "text": "Santa Bárbara (Tomás Lander)",
         "isAnswer": true
     },
     {
@@ -3188,7 +3188,7 @@
         "question": "En qué estado se encuentra",
         "category": "Ciudades Nivel 5",
         "answer": "Barinas",
-        "text": "Santa Bárbara",
+        "text": "Santa Bárbara (Ezequiel Zamora)",
         "isAnswer": true
     },
     {
@@ -3489,7 +3489,7 @@
         "question": "En qué estado se encuentra",
         "category": "Ciudades Nivel 6",
         "answer": "Mérida",
-        "text": "Lagunillas",
+        "text": "Lagunillas (Sucre)",
         "isAnswer": true
     },
     {
@@ -3587,7 +3587,7 @@
         "question": "En qué estado se encuentra",
         "category": "Ciudades Nivel 7",
         "answer": "Miranda",
-        "text": "San Diego",
+        "text": "San Diego de los Altos",
         "isAnswer": true
     },
     {

@@ -5,7 +5,6 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-
 import {
   NativeAd,
   NativeAdView,
@@ -13,19 +12,20 @@ import {
   NativeAssetType,
   TestIds,
 } from "react-native-google-mobile-ads";
-import i18n from "../../../i18n";
-
 import { EXPO_NATIVE } from "@env";
+import i18n from "../../../i18n";
 
 import { NativeAdComponentPropsType } from "../../types/props.types";
 
 import { generalStyles } from "../../styles/general.styles";
 
-const adUnitId = __DEV__ ? TestIds.NATIVE : EXPO_NATIVE;
+const adUnitId = __DEV__
+  ? TestIds.NATIVE
+  : EXPO_NATIVE;
 
 const LOAD_TIMEOUT = 5000;
 
-const NativeAdComponent = ({ visible, onAdLoaded, onAdFailed, onTimeout }: NativeAdComponentPropsType) => {
+const NativeAdComponent = ({ onAdLoaded, onAdFailed, onTimeout }: NativeAdComponentPropsType) => {
 
   const [nativeAd, setNativeAd] = useState<NativeAd | null>(null);
 
@@ -36,82 +36,68 @@ const NativeAdComponent = ({ visible, onAdLoaded, onAdFailed, onTimeout }: Nativ
     let mounted = true;
 
     const timeout = setTimeout(() => {
+
       if (!adRef.current && mounted) {
         onTimeout();
       }
+
     }, LOAD_TIMEOUT);
 
-    const load = async () => {
+    const loadAd = async () => {
 
       try {
 
         const ad = await NativeAd.createForAdRequest(
-          adUnitId,
-          {
-            requestNonPersonalizedAdsOnly: true,
-          }
+          adUnitId
         );
 
         if (!mounted) {
-          ad.destroy();
-          return;
+          ad.destroy()
+          return
         }
 
-        clearTimeout(timeout);
+        clearTimeout(timeout)
+        adRef.current = ad
+        setNativeAd(ad)
+        onAdLoaded()
 
-        adRef.current = ad;
-        setNativeAd(ad);
+      } catch (error) {
 
-        onAdLoaded();
-
-      } catch {
-
-        clearTimeout(timeout);
+        clearTimeout(timeout)
 
         if (mounted) {
-          onAdFailed();
+          onAdFailed()
         }
 
       }
 
-    };
+    }
 
-    load();
+    loadAd()
 
     return () => {
-
       mounted = false;
-
       clearTimeout(timeout);
-
       adRef.current?.destroy();
+      adRef.current = null;
+    }
 
-    };
+  }, [])
 
-  }, []);
 
   if (!nativeAd) {
 
     return (
       <View
         style={{
-          height: '10%',
+          height: '10%'
         }}
       />
     );
-
   }
 
   return (
-    <View
-      style={[
-        generalStyles.containerNative,
-        {
-          opacity: visible ? 1 : 0,
-          overflow: "hidden"
-        },
-      ]}
-    >
+    <View style={generalStyles.containerNative}>
 
       <NativeAdView nativeAd={nativeAd}>
 
@@ -125,8 +111,10 @@ const NativeAdComponent = ({ visible, onAdLoaded, onAdFailed, onTimeout }: Nativ
           }}
         >
 
-          {nativeAd.icon?.url && (
+          {nativeAd.icon && (
+
             <NativeAsset assetType={NativeAssetType.ICON}>
+
               <Image
                 source={{ uri: nativeAd.icon.url }}
                 style={{
@@ -136,8 +124,11 @@ const NativeAdComponent = ({ visible, onAdLoaded, onAdFailed, onTimeout }: Nativ
                   marginRight: 8,
                 }}
               />
+
             </NativeAsset>
+
           )}
+
 
           <View style={{ flex: 1 }}>
 
@@ -150,7 +141,9 @@ const NativeAdComponent = ({ visible, onAdLoaded, onAdFailed, onTimeout }: Nativ
               {i18n.t("advertisement")}
             </Text>
 
+
             <NativeAsset assetType={NativeAssetType.HEADLINE}>
+
               <Text
                 style={{
                   fontSize: 12,
@@ -160,46 +153,52 @@ const NativeAdComponent = ({ visible, onAdLoaded, onAdFailed, onTimeout }: Nativ
               >
                 {nativeAd.headline}
               </Text>
+
             </NativeAsset>
 
-            <NativeAsset assetType={NativeAssetType.BODY}>
-              <Text
-                numberOfLines={2}
-                style={{
-                  fontSize: 11,
-                  color: "#666",
-                  marginRight: 8
-                }}
-              >
-                {nativeAd.body}
-              </Text>
-            </NativeAsset>
+
+            {nativeAd.body && (
+
+              <NativeAsset assetType={NativeAssetType.BODY}>
+
+                <Text
+                  numberOfLines={2}
+                  style={{
+                    fontSize: 11,
+                    color: "#666",
+                    marginRight: 8,
+                  }}
+                >
+                  {nativeAd.body}
+                </Text>
+
+              </NativeAsset>
+
+            )}
 
           </View>
 
-          <NativeAsset assetType={NativeAssetType.CALL_TO_ACTION}>
-            <TouchableOpacity
-              activeOpacity={1}
-              style={{
-                backgroundColor: "#1976D2",
-                padding: 7,
-                borderRadius: 7,
-              }}
-            >
-              <Text
+
+          {nativeAd.callToAction && (
+
+            <NativeAsset assetType={NativeAssetType.CALL_TO_ACTION}>
+
+              <TouchableOpacity
+                activeOpacity={1}
                 style={{
-                  color: "#FFF"
+                  backgroundColor: "#1976D2",
+                  padding: 7,
+                  borderRadius: 7,
                 }}
               >
-                {nativeAd.callToAction}
-              </Text>
-            </TouchableOpacity>
-          </NativeAsset>
-
+                <Text style={{ color: "#FFF" }}>
+                  {nativeAd.callToAction}
+                </Text>
+              </TouchableOpacity>
+            </NativeAsset>
+          )}
         </View>
-
       </NativeAdView>
-
     </View>
   );
 

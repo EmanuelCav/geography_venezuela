@@ -11,6 +11,7 @@ const i18n = new I18n({ en, es, pt })
 
 i18n.enableFallback = true
 i18n.defaultLocale = 'es'
+i18n.defaultSeparator = '::'
 
 export const SUPPORTED_LANGUAGES = ['en', 'pt', 'es'] as const
 type SupportedLanguage = typeof SUPPORTED_LANGUAGES[number]
